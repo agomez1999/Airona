@@ -1,0 +1,31 @@
+{
+  "notFound": {
+    "title": "Comanda no trobada",
+    "subtitle": "No hem pogut trobar la teva comanda. Revisa el teu correu.",
+    "back": "Tornar a l'inici"
+  },
+  "processing": {
+    "title": "Processant el teu pagament…",
+    "subtitle": "Això pot tardar uns segons."
+  },
+  "verifying": {
+    "title": "Verificant el teu pagament",
+    "subtitle": "La confirmació pot trigar uns minuts. Rebràs un email amb els teus vals en breu.",
+    "back": "Tornar a l'inici"
+  },
+  "failed": {
+    "title": "Pagament no completat",
+    "subtitle": "El pagament no s'ha pogut processar. No s'ha cobrat res.",
+    "backCart": "Tornar al carret"
+  },
+  "success": {
+    "title": "Compra confirmada!",
+    "order": "Comanda",
+    "vouchersEmail": "Rebràs els teus vals a",
+    "vouchersSection": "Els teus vals",
+    "validUntil": "Vàlid fins",
+    "download": "Descarregar PDF",
+    "totalPaid": "Total pagat:",
+    "back": "Tornar a l'inici"
+  }
+}

@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Confirmación de pedido – Airona Globus</title>
+    @if($locale === 'ca')
+        <title>Confirmació de comanda – Airona Globus</title>
+    @elseif($locale === 'fr')
+        <title>Confirmation de commande – Airona Globus</title>
+    @elseif($locale === 'en')
+        <title>Order confirmation – Airona Globus</title>
+    @else
+        <title>Confirmación de pedido – Airona Globus</title>
+    @endif
     <style>
         body {
             margin: 0;
@@ -34,7 +42,15 @@
                             Airona Globus
                         </div>
                         <div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#a0a8bb;margin-top:4px;">
-                            Experiencias en globo aerostático
+                            @if($locale === 'ca')
+                                Experiències en globus aerostàtic
+                            @elseif($locale === 'fr')
+                                Expériences en montgolfière
+                            @elseif($locale === 'en')
+                                Hot air balloon experiences
+                            @else
+                                Experiencias en globo aerostático
+                            @endif
                         </div>
                     </td>
                 </tr>
@@ -49,17 +65,43 @@
                     <td style="padding:40px 48px;">
 
                         <h1 style="font-size:22px;font-weight:700;color:#1a1f2e;margin:0 0 8px;">
-                            ¡Gracias por tu compra!
+                            @if($locale === 'ca')
+                                Gràcies per la teva compra!
+                            @elseif($locale === 'fr')
+                                Merci pour votre achat !
+                            @elseif($locale === 'en')
+                                Thank you for your purchase!
+                            @else
+                                ¡Gracias por tu compra!
+                            @endif
                         </h1>
                         <p style="font-size:15px;color:#6b7280;margin:0 0 32px;">
-                            Hemos recibido tu pedido correctamente.
+                            @if($locale === 'ca')
+                                Hem rebut la teva comanda correctament.
+                            @elseif($locale === 'fr')
+                                Nous avons bien reçu votre commande.
+                            @elseif($locale === 'en')
+                                We have received your order successfully.
+                            @else
+                                Hemos recibido tu pedido correctamente.
+                            @endif
                         </p>
 
                         {{-- Order details --}}
                         <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
                             <tr>
                                 <td style="padding:14px 16px;background:#f9fafb;border-radius:6px 6px 0 0;border-bottom:1px solid #e5e7eb;">
-                                    <span style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9ca3af;">Número de pedido</span><br>
+                                    <span style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9ca3af;">
+                                        @if($locale === 'ca')
+                                            Número de comanda
+                                        @elseif($locale === 'fr')
+                                            Numéro de commande
+                                        @elseif($locale === 'en')
+                                            Order number
+                                        @else
+                                            Número de pedido
+                                        @endif
+                                    </span><br>
                                     <span style="font-size:17px;font-weight:700;color:#1a1f2e;font-family:'Courier New',Courier,monospace;letter-spacing:2px;">
                                         {{ $order->order_number }}
                                     </span>
@@ -75,7 +117,15 @@
 
                         {{-- Items list --}}
                         <p style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9ca3af;margin:0 0 10px;">
-                            Resumen del pedido
+                            @if($locale === 'ca')
+                                Resum de la comanda
+                            @elseif($locale === 'fr')
+                                Récapitulatif de la commande
+                            @elseif($locale === 'en')
+                                Order summary
+                            @else
+                                Resumen del pedido
+                            @endif
                         </p>
                         <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:20px;border:1px solid #e5e7eb;border-radius:6px;overflow:hidden;">
                             @foreach($order->items as $item)
@@ -106,8 +156,19 @@
                             <tr>
                                 <td style="padding:16px 20px;background:#fdfaf3;border:1px solid #c9a84c;border-radius:6px;">
                                     <p style="margin:0;font-size:14px;color:#92740a;line-height:1.6;">
-                                        <strong>Recibirás tus vales en un email separado en los próximos minutos.</strong><br>
-                                        Cada vale incluirá un código QR listo para presentar el día de tu experiencia.
+                                        @if($locale === 'ca')
+                                            <strong>Rebràs els teus vals en un email separat en els propers minuts.</strong><br>
+                                            Cada val inclourà un codi QR llest per presentar el dia de la teva experiència.
+                                        @elseif($locale === 'fr')
+                                            <strong>Vous recevrez vos bons dans un e-mail séparé dans les prochaines minutes.</strong><br>
+                                            Chaque bon inclura un code QR prêt à présenter le jour de votre expérience.
+                                        @elseif($locale === 'en')
+                                            <strong>You will receive your vouchers in a separate email within the next few minutes.</strong><br>
+                                            Each voucher will include a QR code ready to present on the day of your experience.
+                                        @else
+                                            <strong>Recibirás tus vales en un email separado en los próximos minutos.</strong><br>
+                                            Cada vale incluirá un código QR listo para presentar el día de tu experiencia.
+                                        @endif
                                     </p>
                                 </td>
                             </tr>
@@ -120,10 +181,26 @@
                 <tr>
                     <td style="background:#f9fafb;border-top:1px solid #e5e7eb;padding:22px 48px;text-align:center;">
                         <p style="margin:0;font-size:12px;color:#9ca3af;">
-                            Airona Globus &middot; Experiencias en globo aerostático
+                            @if($locale === 'ca')
+                                Airona Globus &middot; Experiències en globus aerostàtic
+                            @elseif($locale === 'fr')
+                                Airona Globus &middot; Expériences en montgolfière
+                            @elseif($locale === 'en')
+                                Airona Globus &middot; Hot air balloon experiences
+                            @else
+                                Airona Globus &middot; Experiencias en globo aerostático
+                            @endif
                         </p>
                         <p style="margin:6px 0 0;font-size:11px;color:#b0b7c3;">
-                            Si tienes alguna duda, contáctanos respondiendo a este correo.
+                            @if($locale === 'ca')
+                                Si tens algun dubte, contacta'ns responent aquest correu.
+                            @elseif($locale === 'fr')
+                                Si vous avez des questions, contactez-nous en répondant à cet e-mail.
+                            @elseif($locale === 'en')
+                                If you have any questions, contact us by replying to this email.
+                            @else
+                                Si tienes alguna duda, contáctanos respondiendo a este correo.
+                            @endif
                         </p>
                     </td>
                 </tr>

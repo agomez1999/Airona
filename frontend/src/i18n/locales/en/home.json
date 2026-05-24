@@ -15,8 +15,40 @@
     "satisfaction": "5-star rated",
     "safety": "AESA certified pilots"
   },
+  "included": {
+    "title": "Included in every flight",
+    "cava": "Cava toast",
+    "photos": "Photos & 360° video",
+    "pilot": "AESA certified pilot",
+    "sunrise": "Sunrise flight"
+  },
   "testimonials": {
-    "title": "What people who've flown with us say"
+    "title": "What people who've flown with us say",
+    "0": "An experience that genuinely changes your perspective. The sunrise over the Empordà from the balloon is something words can't do justice. The Airona team takes care of every detail.",
+    "1": "I booked the private flight for my wife's anniversary and it was simply magical. Seeing the Costa Brava and the Mediterranean from 800 metres up, with the Pyrenees in the background... unforgettable.",
+    "2": "I gifted this flight to my husband and he said it was the best present he's ever received. The cava toast on landing, the flight photos... everything was perfect. We'll be back."
+  },
+  "placeholders": {
+    "shared": {
+      "label": "Shared Flight",
+      "desc": "The experience at the best price! Basket for up to 8 people, sunrise departure from Colomers."
+    },
+    "private": {
+      "label": "Exclusive Flight",
+      "desc": "An exclusive flight, just for you and your chosen guests. Basket for up to 8 people, fully personalised."
+    },
+    "gift": {
+      "label": "Gift Voucher",
+      "desc": "The recipient chooses the date. Valid 1 year from purchase. Delivered instantly by email."
+    }
+  },
+  "faq": {
+    "q0": "Is hot air ballooning safe?",
+    "a0": "Yes. Flights only take place when weather conditions are optimal. All our pilots are certified by the Spanish State Aviation Safety Agency (AESA) and have over 10 years of experience.",
+    "q1": "How long does the experience last?",
+    "a1": "The complete experience lasts 3 to 4 hours. It includes balloon preparation and inflation, approximately 1 hour of flight, the cava toast on landing, and the return transfer to the meeting point.",
+    "q2": "What happens if the weather is bad?",
+    "a2": "Our pilots constantly monitor the weather. If conditions are not safe, the flight is rescheduled at no extra cost. Your safety is always the priority."
   },
   "faqSnippet": {
     "title": "Questions about the flight?",

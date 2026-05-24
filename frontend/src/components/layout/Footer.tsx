@@ -20,10 +20,7 @@ export function Footer({ locale }: Props) {
               Airona<span className="text-brand-gold">.</span>
             </Link>
             <p className="mt-3 text-sm text-white/60 leading-relaxed">
-              {locale === 'es' && 'Vuelos en globo sobre el Empordà y la Costa Brava desde hace más de 10 años.'}
-              {locale === 'ca' && 'Vols en globus sobre l\'Empordà i la Costa Brava des de fa més de 10 anys.'}
-              {locale === 'fr' && 'Vols en montgolfière au-dessus de l\'Empordà et de la Costa Brava depuis plus de 10 ans.'}
-              {locale === 'en' && 'Hot air balloon flights over the Empordà and Costa Brava for over 10 years.'}
+              {t('footer.brandDesc')}
             </p>
           </div>
 
@@ -34,16 +31,16 @@ export function Footer({ locale }: Props) {
             </h3>
             <ul className="space-y-3">
               {[
-                { key: 'sharedFlight', label: locale === 'es' ? 'Vuelo compartido' : locale === 'ca' ? 'Vol compartit' : locale === 'fr' ? 'Vol partagé' : 'Shared flight' },
-                { key: 'privateFlight', label: locale === 'es' ? 'Vuelo privado' : locale === 'ca' ? 'Vol privat' : locale === 'fr' ? 'Vol privé' : 'Private flight' },
-                { key: 'gift', label: locale === 'es' ? 'Regala un vuelo' : locale === 'ca' ? 'Regala un vol' : locale === 'fr' ? 'Offrir un vol' : 'Gift a flight' },
-              ].map(({ key, label }) => (
+                { key: 'sharedFlight', labelKey: 'footer.sharedFlight' },
+                { key: 'privateFlight', labelKey: 'footer.privateFlight' },
+                { key: 'gift', labelKey: 'footer.giftFlight' },
+              ].map(({ key, labelKey }) => (
                 <li key={key}>
                   <Link
                     to={buildLocalePath(locale, key as Parameters<typeof buildLocalePath>[1])}
                     className="text-sm text-white/60 hover:text-white transition-colors"
                   >
-                    {label}
+                    {t(labelKey)}
                   </Link>
                 </li>
               ))}
@@ -53,7 +50,7 @@ export function Footer({ locale }: Props) {
           {/* Information */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-brand-gold mb-4">
-              {locale === 'es' ? 'Información' : locale === 'ca' ? 'Informació' : locale === 'fr' ? 'Information' : 'Information'}
+              {t('footer.infoSection')}
             </h3>
             <ul className="space-y-3">
               {[

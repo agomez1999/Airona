@@ -32,7 +32,12 @@
     "rights": "© {{year}} Airona Globus. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales",
-    "cookies": "Politique des cookies"
+    "cookies": "Politique des cookies",
+    "brandDesc": "Vols en montgolfière au-dessus de l'Empordà et de la Costa Brava depuis plus de 10 ans.",
+    "infoSection": "Information",
+    "sharedFlight": "Vol partagé",
+    "privateFlight": "Vol privé",
+    "giftFlight": "Offrir un vol"
   },
   "errors": {
     "notFound": "Page introuvable",

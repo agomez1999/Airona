@@ -15,8 +15,40 @@
     "satisfaction": "Valoración 5 estrellas",
     "safety": "Pilotos certificados AESA"
   },
+  "included": {
+    "title": "Incluido en cada vuelo",
+    "cava": "Brindis con cava",
+    "photos": "Fotos y vídeo 360°",
+    "pilot": "Piloto certificado AESA",
+    "sunrise": "Vuelo al amanecer"
+  },
   "testimonials": {
-    "title": "Lo que dicen quienes ya han volado"
+    "title": "Lo que dicen quienes ya han volado",
+    "0": "Una experiencia que te cambia la perspectiva, literalmente. El amanecer sobre el Empordà desde el globo es algo que no se puede explicar con palabras. El equipo de Airona cuida cada detalle.",
+    "1": "Reservé el vuelo privado para el aniversario de mi mujer y fue simplemente mágico. Ver la Costa Brava y el Mediterráneo desde 800 metros de altura, con el Pirineo al fondo... inolvidable.",
+    "2": "Regalé este vuelo a mi marido y dijo que fue el mejor regalo de su vida. El brindis con cava al aterrizar, las fotos del vuelo... todo perfecto. Volveremos."
+  },
+  "placeholders": {
+    "shared": {
+      "label": "Vuelo Compartido",
+      "desc": "¡Vive la experiencia al mejor precio! Cesta para hasta 8 personas, salida al amanecer desde Colomers."
+    },
+    "private": {
+      "label": "Vuelo Exclusivo",
+      "desc": "Disfruta de un vuelo exclusivo, solo para ti y quien tú quieras. Cesta de hasta 8 personas, totalmente personalizado."
+    },
+    "gift": {
+      "label": "Cheque Regalo",
+      "desc": "La persona que recibe el regalo elige la fecha. Válido 1 año desde la compra. Enviado al instante por email."
+    }
+  },
+  "faq": {
+    "q0": "¿Es seguro volar en globo aerostático?",
+    "a0": "Sí. Los vuelos solo se realizan cuando las condiciones meteorológicas son óptimas. Todos nuestros pilotos están certificados por la Agencia Estatal de Seguridad Aérea (AESA) y tienen más de 10 años de experiencia.",
+    "q1": "¿Cuánto dura la experiencia?",
+    "a1": "La experiencia completa dura entre 3 y 4 horas. Incluye la preparación e inflado del globo, aproximadamente 1 hora de vuelo, el brindis con cava al aterrizar y el traslado de vuelta al punto de partida.",
+    "q2": "¿Qué pasa si hay mal tiempo?",
+    "a2": "Nuestros pilotos monitorizan el tiempo constantemente. Si las condiciones no son seguras, el vuelo se reprograma sin ningún coste adicional. Tu seguridad es siempre la prioridad."
   },
   "faqSnippet": {
     "title": "¿Tienes dudas sobre el vuelo?",

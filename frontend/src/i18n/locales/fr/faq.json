@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de voler avec Airona Globus"
+  },
+  "cta": {
+    "title": "Vous avez encore des questions ?",
+    "subtitle": "Notre équipe est disponible du lundi au dimanche. Appelez-nous au +34 652 907 515 ou écrivez-nous."
+  },
+  "categories": {
+    "safety": "Sécurité",
+    "experience": "L'expérience",
+    "bookings": "Réservations et annulations",
+    "gift": "Bon cadeau"
+  },
+  "safety": {
+    "q0": "Est-il sécurisé de voler en montgolfière ?",
+    "a0": "Absolument. Les vols n'ont lieu que lorsque les conditions météorologiques sont optimales — nos pilotes surveillent la météo 24 heures avant le vol. Tous sont certifiés par l'Agence espagnole de sécurité aérienne (AESA) et ont plus de 10 ans d'expérience. De plus, les montgolfières font l'objet de contrôles techniques réguliers.",
+    "q1": "Quelles certifications ont vos pilotes ?",
+    "a1": "Tous nos pilotes possèdent la licence de pilote de montgolfière délivrée par l'Agence espagnole de sécurité aérienne (AESA). Cette licence requiert une formation rigoureuse, un nombre minimum d'heures de vol et une révision médicale annuelle. Nos pilotes ont également plus de 10 ans d'expérience de vol en Empordà.",
+    "q2": "Y a-t-il des restrictions pour voler ?",
+    "a2": "Oui. Le vol en montgolfière n'est pas recommandé aux femmes enceintes ni aux enfants de moins de 6 ans. Il est interdit de fumer à bord. Le poids maximum par passager est de 95 kg — si votre poids est supérieur, contactez-nous avant de réserver. L'activité est également soumise aux conditions météorologiques."
+  },
+  "experience": {
+    "q0": "Combien de temps dure le vol ?",
+    "a0": "L'expérience complète dure entre 3 et 4 heures. Le vol en lui-même dure environ 1 heure. Il faut ajouter le temps de préparation et de gonflage de la montgolfière (environ 30 minutes), le toast au cava à l'atterrissage et le retour au point de rendez-vous.",
+    "q1": "À quelle heure partent les vols ?",
+    "a1": "Nous volons à l'aube pour profiter des meilleures conditions de vent et de la lumière dorée du matin. En été, les vols partent à 6h30. En hiver, le départ est à 8h00. Le point de rendez-vous est à Colomers (Empordà).",
+    "q2": "À quelle altitude volons-nous ?",
+    "a2": "Nous volons entre 300 et 1 000 mètres d'altitude, selon les conditions de vent et le paysage. Nous cherchons toujours la meilleure perspective de la région : par temps clair, on peut voir les Pyrénées au nord et la Méditerranée à l'est.",
+    "q3": "Qu'est-ce qui est inclus dans le prix ?",
+    "a3": "Le prix comprend le vol en montgolfière d'environ 1 heure, le toast au cava à l'atterrissage, les photos et la vidéo 360° du vol, le pilote certifié AESA et l'assurance vol. Le retour au point de rendez-vous est également inclus.",
+    "q4": "Que dois-je apporter ?",
+    "a4": "Des vêtements confortables adaptés à la marche et des chaussures de sport ou fermées. La température pendant le vol est similaire à celle au sol, donc habillez-vous selon la saison. Par temps froid, plusieurs couches. Nous recommandons également une casquette pour le soleil et, bien sûr, un appareil photo."
+  },
+  "bookings": {
+    "q0": "Que se passe-t-il en cas de mauvais temps le jour de mon vol ?",
+    "a0": "Votre sécurité est la priorité. Si les conditions météorologiques ne sont pas adéquates, le vol est reprogrammé sans frais supplémentaires. Nos pilotes prennent cette décision à l'avance et vous prévenons dès que possible.",
+    "q1": "Combien de temps à l'avance dois-je réserver ?",
+    "a1": "Nous recommandons de réserver au moins 2 à 3 semaines à l'avance, surtout au printemps et en été qui sont les mois les plus chargés. À Noël et à la Saint-Valentin, les places partent vite. Cela dit, vous pouvez toujours vérifier les disponibilités de dernière minute.",
+    "q2": "Les bons cadeaux ont-ils une date d'expiration ?",
+    "a2": "Oui, les bons cadeaux sont valables 1 an à compter de la date d'achat. La personne qui reçoit le cadeau est celle qui choisit la date du vol. Dans cette année, elle peut voler n'importe quel jour disponible.",
+    "q3": "Combien de personnes peuvent monter dans la nacelle ?",
+    "a3": "La nacelle est conçue pour 2 à 8 passagers, ce qui vous permet de partager ce moment spécial dans une ambiance intime. Pour le vol privé, la nacelle est pour vous et les accompagnateurs de votre choix (jusqu'à 8 personnes au total, pilote compris)."
+  },
+  "giftVoucher": {
+    "q0": "Comment fonctionne le bon cadeau ?",
+    "a0": "Vous achetez le bon cadeau en ligne en quelques minutes. Vous le recevez instantanément par e-mail sous forme de bon personnalisé prêt à imprimer ou à envoyer numériquement. La personne qui le reçoit choisit la date du vol en toute flexibilité, dans la limite d'un an de validité.",
+    "q1": "Pour quel type de vol est valable le bon cadeau ?",
+    "a1": "Vous pouvez acheter le bon cadeau pour le vol partagé ou pour le vol privé, selon ce que vous souhaitez offrir. Dans les deux cas, la personne qui reçoit le cadeau choisit la date et gère sa réservation directement avec nous."
+  }
+}

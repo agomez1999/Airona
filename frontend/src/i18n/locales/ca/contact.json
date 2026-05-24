@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "Estem aquí per ajudar-te",
+    "subtitle": "Explica'ns el que necessites i et respondrem el més aviat possible. També ens pots trucar directament."
+  },
+  "form": {
+    "title": "Escriu-nos",
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "subject": "Assumpte",
+    "message": "El teu missatge",
+    "send": "Enviar missatge",
+    "sending": "Enviant...",
+    "subjects": [
+      "Informació sobre vols",
+      "Reservar un vol",
+      "Xec regal",
+      "Grups i esdeveniments",
+      "Condicions i cancel·lacions",
+      "Altre"
+    ]
+  },
+  "info": {
+    "title": "Informació de contacte",
+    "phone": "Telèfon",
+    "meetingPoint": "Punt de trobada",
+    "schedule": "Horari de vols",
+    "scheduleValue": "Estiu 6:30 h · Hivern 8:00 h",
+    "season": "Temporada",
+    "seasonValue": "Tot l'any (segons meteorologia)",
+    "follow": "Segueix-nos"
+  },
+  "status": {
+    "success": "Missatge enviat! Et respondrem el més aviat possible.",
+    "successPhone": "També ens pots trucar al +34 652 907 515.",
+    "error": "Error en enviar. Si us plau, torna-ho a intentar o truca'ns directament."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Finalitzar compra",
+  "summary": "Resum",
+  "fields": {
+    "email": "Correu electrònic",
+    "emailPlaceholder": "el-teu@correu.com",
+    "name": "Nom complet",
+    "namePlaceholder": "El teu nom complet"
+  },
+  "terms": {
+    "accept": "Accepto els",
+    "termsLink": "termes i condicions",
+    "and": "i la",
+    "privacyLink": "política de privacitat"
+  },
+  "buttons": {
+    "pay": "Pagar {{amount}}",
+    "redirecting": "Redirigint a Stripe...",
+    "processing": "Processant..."
+  },
+  "security": "Pagament segur processat per Stripe. No emmagatzemem dades de targeta.",
+  "validation": {
+    "emailRequired": "Correu electrònic obligatori",
+    "emailInvalid": "Correu electrònic no vàlid",
+    "nameRequired": "Nom obligatori",
+    "termsRequired": "Has d'acceptar els termes"
+  },
+  "errors": {
+    "paymentFailed": "Error en processar el pagament. Torna-ho a intentar."
+  }
+}

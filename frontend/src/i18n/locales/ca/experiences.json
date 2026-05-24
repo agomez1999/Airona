@@ -1,0 +1,29 @@
+{
+  "heading": "Vols en globus sobre l'Empordà",
+  "subtitle": "Compartit, privat o com a regal. Cada vol inclou 1 hora de vol, brindis amb cava i fotos 360°.",
+  "included": {
+    "title": "Inclòs en totes les experiències",
+    "sunrise": "Vol a l'alba",
+    "cava": "Brindis amb cava",
+    "photos": "Fotos i vídeo 360°",
+    "pilot": "Pilot certificat AESA"
+  },
+  "gift": {
+    "title": "Busques el regal perfecte?",
+    "subtitle": "La persona que rep el regal tria la data. Vàlid 1 any. Enviat a l'instant per email."
+  },
+  "detail": {
+    "includes": "Inclou",
+    "flightDuration": "durada vol",
+    "maxCapacity": "places màxim",
+    "book": "Reservar",
+    "securePayment": "Pagament segur amb Stripe",
+    "perPerson": "/ persona",
+    "features": {
+      "shared": ["Grups petits (màx. 8 persones)", "Pilot certificat", "Brindis amb cava en aterrar", "Diploma de vol"],
+      "private": ["Sols per a vosaltres", "Personalitzable", "Champagne premium", "Record fotogràfic"],
+      "gift": ["Vàlid 1 any", "Descarregable a l'instant", "Per a qualsevol vol", "Transferible"],
+      "special": ["Experiència exclusiva", "Grups reduïts", "Cava inclòs", "Diploma"]
+    }
+  }
+}

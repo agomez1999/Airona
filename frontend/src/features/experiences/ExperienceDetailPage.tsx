@@ -26,33 +26,6 @@ const SLUG_KEY_MAP: Record<string, 'sharedFlight' | 'privateFlight' | 'gift'> = 
   gift: 'gift',
 }
 
-const FEATURES: Record<string, Record<ProductType, string[]>> = {
-  es: {
-    shared: ['Pequeños grupos (máx. 8 personas)', 'Piloto certificado', 'Brindis con cava al aterrizar', 'Diploma de vuelo'],
-    private: ['Solo para vosotros', 'Personalizable', 'Champagne premium', 'Recuerdo fotográfico'],
-    gift: ['Válido 1 año', 'Descargable al instante', 'Para cualquier vuelo', 'Transferible'],
-    special: ['Experiencia exclusiva', 'Grupos reducidos', 'Cava incluido', 'Diploma'],
-  },
-  ca: {
-    shared: ['Grups petits (màx. 8 persones)', 'Pilot certificat', 'Brindis amb cava en aterrar', 'Diploma de vol'],
-    private: ['Sols per a vosaltres', 'Personalitzable', 'Champagne premium', 'Record fotogràfic'],
-    gift: ['Vàlid 1 any', 'Descarregable a l\'instant', 'Per a qualsevol vol', 'Transferible'],
-    special: ['Experiència exclusiva', 'Grups reduïts', 'Cava inclòs', 'Diploma'],
-  },
-  fr: {
-    shared: ['Petits groupes (max. 8 personnes)', 'Pilote certifié', 'Toast au champagne à l\'atterrissage', 'Diplôme de vol'],
-    private: ['Rien que pour vous', 'Personnalisable', 'Champagne premium', 'Souvenir photo'],
-    gift: ['Valable 1 an', 'Téléchargeable immédiatement', 'Pour tout vol', 'Transférable'],
-    special: ['Expérience exclusive', 'Groupes réduits', 'Champagne inclus', 'Diplôme'],
-  },
-  en: {
-    shared: ['Small groups (max. 8 people)', 'Certified pilot', 'Champagne toast on landing', 'Flight certificate'],
-    private: ['Just for you', 'Customisable', 'Premium champagne', 'Photo memento'],
-    gift: ['Valid 1 year', 'Instantly downloadable', 'For any flight', 'Transferable'],
-    special: ['Exclusive experience', 'Small groups', 'Champagne included', 'Certificate'],
-  },
-}
-
 interface Props {
   type: 'shared' | 'private' | 'gift'
 }
@@ -61,6 +34,7 @@ export function ExperienceDetailPage({ type }: Props) {
   const { locale } = useOutletContext<LocaleContext>()
   const { t } = useTranslation()
   const { t: tSeo } = useTranslation('seo')
+  const { t: tExp } = useTranslation('experiences')
   const addItem = useCartStore(s => s.addItem)
 
   const { data: products = [] } = useQuery({
@@ -73,7 +47,10 @@ export function ExperienceDetailPage({ type }: Props) {
   const seoKey = SEO_KEY_MAP[type]
   const slugKey = SLUG_KEY_MAP[type]
   const hero = product?.images.find(i => i.is_hero) ?? product?.images[0]
-  const features = FEATURES[locale]?.[type] ?? FEATURES.es[type]
+
+  // Get features array from translation JSON (returnObjects: true returns the array)
+  const featuresKey = type as ProductType
+  const features: string[] = tExp(`detail.features.${featuresKey}`, { returnObjects: true }) as string[]
 
   const price = product?.sale_price_cents ?? product?.price_cents
 
@@ -138,7 +115,7 @@ export function ExperienceDetailPage({ type }: Props) {
           {price && (
             <p className="text-brand-gold text-2xl font-bold">
               {formatCurrency(price)}
-              <span className="text-white/60 text-base font-normal ml-2">/ persona</span>
+              <span className="text-white/60 text-base font-normal ml-2">{tExp('detail.perPerson')}</span>
             </p>
           )}
         </div>
@@ -159,10 +136,10 @@ export function ExperienceDetailPage({ type }: Props) {
             {/* Features list */}
             <div className="mt-10">
               <h2 className="text-2xl font-display font-bold text-brand-dusk mb-6">
-                {locale === 'es' ? 'Incluye' : locale === 'ca' ? 'Inclou' : locale === 'fr' ? 'Inclus' : 'Includes'}
+                {tExp('detail.includes')}
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {features.map((f, i) => (
+                {Array.isArray(features) && features.map((f, i) => (
                   <li key={i} className="flex items-center gap-3 text-brand-dusk/80">
                     <svg className="w-5 h-5 text-brand-gold flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <polyline points="20 6 9 17 4 12"/>
@@ -180,7 +157,7 @@ export function ExperienceDetailPage({ type }: Props) {
                   <div className="bg-brand-mist rounded-xl p-5 text-center">
                     <div className="text-3xl font-bold text-brand-gold">{product.duration_minutes}'</div>
                     <div className="text-sm text-brand-dusk/60 mt-1">
-                      {locale === 'es' ? 'duración vuelo' : locale === 'ca' ? 'durada vol' : locale === 'fr' ? 'durée vol' : 'flight duration'}
+                      {tExp('detail.flightDuration')}
                     </div>
                   </div>
                 )}
@@ -188,7 +165,7 @@ export function ExperienceDetailPage({ type }: Props) {
                   <div className="bg-brand-mist rounded-xl p-5 text-center">
                     <div className="text-3xl font-bold text-brand-gold">{product.capacity}</div>
                     <div className="text-sm text-brand-dusk/60 mt-1">
-                      {locale === 'es' ? 'plazas máximo' : locale === 'ca' ? 'places màxim' : locale === 'fr' ? 'places maximum' : 'max capacity'}
+                      {tExp('detail.maxCapacity')}
                     </div>
                   </div>
                 )}
@@ -200,7 +177,7 @@ export function ExperienceDetailPage({ type }: Props) {
           <div className="lg:col-span-1">
             <div className="sticky top-24 bg-white rounded-2xl shadow-lg border border-brand-mist p-6">
               <h3 className="font-display text-xl font-bold text-brand-dusk mb-4">
-                {locale === 'es' ? 'Reservar' : locale === 'ca' ? 'Reservar' : locale === 'fr' ? 'Réserver' : 'Book now'}
+                {tExp('detail.book')}
               </h3>
               {price && (
                 <div className="mb-6">
@@ -222,7 +199,7 @@ export function ExperienceDetailPage({ type }: Props) {
                 {t('cart.add')}
               </button>
               <p className="text-xs text-brand-dusk/50 text-center mt-3">
-                {locale === 'es' ? 'Pago seguro con Stripe' : locale === 'ca' ? 'Pagament segur amb Stripe' : locale === 'fr' ? 'Paiement sécurisé par Stripe' : 'Secure payment via Stripe'}
+                {tExp('detail.securePayment')}
               </p>
             </div>
           </div>

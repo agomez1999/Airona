@@ -1,0 +1,31 @@
+{
+  "notFound": {
+    "title": "Commande introuvable",
+    "subtitle": "Nous n'avons pas pu trouver votre commande. Vérifiez votre email.",
+    "back": "Retour à l'accueil"
+  },
+  "processing": {
+    "title": "Traitement de votre paiement…",
+    "subtitle": "Cela peut prendre quelques secondes."
+  },
+  "verifying": {
+    "title": "Vérification de votre paiement",
+    "subtitle": "La confirmation peut prendre quelques minutes. Vous recevrez un email avec vos bons sous peu.",
+    "back": "Retour à l'accueil"
+  },
+  "failed": {
+    "title": "Paiement non effectué",
+    "subtitle": "Le paiement n'a pas pu être traité. Aucun montant n'a été débité.",
+    "backCart": "Retour au panier"
+  },
+  "success": {
+    "title": "Achat confirmé !",
+    "order": "Commande",
+    "vouchersEmail": "Vous recevrez vos bons à",
+    "vouchersSection": "Vos bons",
+    "validUntil": "Valable jusqu'au",
+    "download": "Télécharger le PDF",
+    "totalPaid": "Total payé :",
+    "back": "Retour à l'accueil"
+  }
+}

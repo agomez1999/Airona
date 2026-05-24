@@ -11,7 +11,6 @@ interface Props {
 
 export function LocaleLayout({ transparentHeader = false }: Props) {
   const { lang } = useParams<{ lang: string }>()
-
   if (!lang || !LOCALES.includes(lang as Locale)) {
     return <Navigate to="/es/" replace />
   }

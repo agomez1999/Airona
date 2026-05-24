@@ -1,0 +1,31 @@
+{
+  "title": "Finalizar compra",
+  "summary": "Resumen",
+  "fields": {
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo"
+  },
+  "terms": {
+    "accept": "Acepto los",
+    "termsLink": "términos y condiciones",
+    "and": "y la",
+    "privacyLink": "política de privacidad"
+  },
+  "buttons": {
+    "pay": "Pagar {{amount}}",
+    "redirecting": "Redirigiendo a Stripe...",
+    "processing": "Procesando..."
+  },
+  "security": "Pago seguro procesado por Stripe. No almacenamos datos de tarjeta.",
+  "validation": {
+    "emailRequired": "Email requerido",
+    "emailInvalid": "Email inválido",
+    "nameRequired": "Nombre requerido",
+    "termsRequired": "Debes aceptar los términos"
+  },
+  "errors": {
+    "paymentFailed": "Error al procesar el pago. Inténtalo de nuevo."
+  }
+}

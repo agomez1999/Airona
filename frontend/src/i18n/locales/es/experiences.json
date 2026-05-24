@@ -1,0 +1,29 @@
+{
+  "heading": "Vuelos en globo sobre el Empordà",
+  "subtitle": "Compartido, privado o como regalo. Cada vuelo incluye 1 hora de vuelo, brindis con cava y fotos 360°.",
+  "included": {
+    "title": "Incluido en todas las experiencias",
+    "sunrise": "Vuelo al amanecer",
+    "cava": "Brindis con cava",
+    "photos": "Fotos y vídeo 360°",
+    "pilot": "Piloto certificado AESA"
+  },
+  "gift": {
+    "title": "¿Buscas el regalo perfecto?",
+    "subtitle": "La persona que recibe el regalo elige la fecha. Válido 1 año. Enviado al instante por email."
+  },
+  "detail": {
+    "includes": "Incluye",
+    "flightDuration": "duración vuelo",
+    "maxCapacity": "plazas máximo",
+    "book": "Reservar",
+    "securePayment": "Pago seguro con Stripe",
+    "perPerson": "/ persona",
+    "features": {
+      "shared": ["Pequeños grupos (máx. 8 personas)", "Piloto certificado", "Brindis con cava al aterrizar", "Diploma de vuelo"],
+      "private": ["Solo para vosotros", "Personalizable", "Champagne premium", "Recuerdo fotográfico"],
+      "gift": ["Válido 1 año", "Descargable al instante", "Para cualquier vuelo", "Transferible"],
+      "special": ["Experiencia exclusiva", "Grupos reducidos", "Cava incluido", "Diploma"]
+    }
+  }
+}

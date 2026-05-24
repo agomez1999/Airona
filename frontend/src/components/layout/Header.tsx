@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { AnimatePresence, motion } from 'framer-motion'
 import { useCartStore } from '@/stores/cartStore'
 import { buildLocalePath, type Locale } from '@/config/routes'
 import { LanguageSwitcher } from './LanguageSwitcher'
+import { slideDownVariants } from '@/lib/motion'
 
 interface Props {
   locale: Locale
@@ -159,31 +161,39 @@ export function Header({ locale, transparent = false }: Props) {
       </div>
 
       {/* Mobile menu */}
-      {menuOpen && (
-        <div className="lg:hidden bg-brand-cream border-t border-brand-mist px-4 pb-6 pt-4 space-y-1">
-          {navLinks.map(({ key, label }) => (
-            <NavLink
-              key={key}
-              to={buildLocalePath(locale, key)}
-              className={({ isActive }) => [
-                'block py-3 text-base font-medium border-b border-brand-mist/60 last:border-0 transition-colors',
-                isActive ? 'text-brand-gold font-semibold' : 'text-brand-dusk hover:text-brand-gold',
-              ].join(' ')}
-            >
-              {label}
-            </NavLink>
-          ))}
-          <Link
-            to={buildLocalePath(locale, 'gift')}
-            className="block mt-4 py-3 text-center rounded-full bg-brand-gold text-white font-semibold"
+      <AnimatePresence initial={false}>
+        {menuOpen && (
+          <motion.div
+            className="lg:hidden bg-brand-cream border-t border-brand-mist px-4 pb-6 pt-4 space-y-1"
+            variants={slideDownVariants}
+            initial="closed"
+            animate="open"
+            exit="closed"
           >
-            {t('nav.gift')}
-          </Link>
-          <div className="flex justify-center pt-4">
-            <LanguageSwitcher currentLocale={locale} />
-          </div>
-        </div>
-      )}
+            {navLinks.map(({ key, label }) => (
+              <NavLink
+                key={key}
+                to={buildLocalePath(locale, key)}
+                className={({ isActive }) => [
+                  'block py-3 text-base font-medium border-b border-brand-mist/60 last:border-0 transition-colors',
+                  isActive ? 'text-brand-gold font-semibold' : 'text-brand-dusk hover:text-brand-gold',
+                ].join(' ')}
+              >
+                {label}
+              </NavLink>
+            ))}
+            <Link
+              to={buildLocalePath(locale, 'gift')}
+              className="block mt-4 py-3 text-center rounded-full bg-brand-gold text-white font-semibold"
+            >
+              {t('nav.gift')}
+            </Link>
+            <div className="flex justify-center pt-4">
+              <LanguageSwitcher currentLocale={locale} />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }

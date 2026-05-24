@@ -1,0 +1,29 @@
+{
+  "heading": "Vols en montgolfière sur l'Empordà",
+  "subtitle": "Partagé, privé ou en cadeau. Chaque vol comprend 1 heure de vol, toast au cava et photos 360°.",
+  "included": {
+    "title": "Inclus dans toutes les expériences",
+    "sunrise": "Vol au lever du soleil",
+    "cava": "Toast au cava",
+    "photos": "Photos & vidéo 360°",
+    "pilot": "Pilote certifié AESA"
+  },
+  "gift": {
+    "title": "Vous cherchez le cadeau parfait ?",
+    "subtitle": "Le destinataire choisit la date. Valable 1 an. Envoyé instantanément par email."
+  },
+  "detail": {
+    "includes": "Inclus",
+    "flightDuration": "durée vol",
+    "maxCapacity": "places maximum",
+    "book": "Réserver",
+    "securePayment": "Paiement sécurisé par Stripe",
+    "perPerson": "/ personne",
+    "features": {
+      "shared": ["Petits groupes (max. 8 personnes)", "Pilote certifié", "Toast au champagne à l'atterrissage", "Diplôme de vol"],
+      "private": ["Rien que pour vous", "Personnalisable", "Champagne premium", "Souvenir photo"],
+      "gift": ["Valable 1 an", "Téléchargeable immédiatement", "Pour tout vol", "Transférable"],
+      "special": ["Expérience exclusive", "Groupes réduits", "Champagne inclus", "Diplôme"]
+    }
+  }
+}

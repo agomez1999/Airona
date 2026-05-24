@@ -1,0 +1,29 @@
+{
+  "heading": "Hot air balloon flights over the Empordà",
+  "subtitle": "Shared, private or as a gift. Every flight includes 1 hour of flying, a cava toast and 360° photos.",
+  "included": {
+    "title": "Included in all experiences",
+    "sunrise": "Sunrise flight",
+    "cava": "Cava toast",
+    "photos": "Photos & 360° video",
+    "pilot": "AESA certified pilot"
+  },
+  "gift": {
+    "title": "Looking for the perfect gift?",
+    "subtitle": "The recipient chooses the date. Valid 1 year. Delivered instantly by email."
+  },
+  "detail": {
+    "includes": "Includes",
+    "flightDuration": "flight duration",
+    "maxCapacity": "max capacity",
+    "book": "Book now",
+    "securePayment": "Secure payment via Stripe",
+    "perPerson": "/ person",
+    "features": {
+      "shared": ["Small groups (max. 8 people)", "Certified pilot", "Champagne toast on landing", "Flight certificate"],
+      "private": ["Just for you", "Customisable", "Premium champagne", "Photo memento"],
+      "gift": ["Valid 1 year", "Instantly downloadable", "For any flight", "Transferable"],
+      "special": ["Exclusive experience", "Small groups", "Champagne included", "Certificate"]
+    }
+  }
+}

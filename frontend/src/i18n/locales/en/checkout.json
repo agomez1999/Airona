@@ -1,0 +1,31 @@
+{
+  "title": "Checkout",
+  "summary": "Summary",
+  "fields": {
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "name": "Full name",
+    "namePlaceholder": "Your full name"
+  },
+  "terms": {
+    "accept": "I accept the",
+    "termsLink": "terms and conditions",
+    "and": "and the",
+    "privacyLink": "privacy policy"
+  },
+  "buttons": {
+    "pay": "Pay {{amount}}",
+    "redirecting": "Redirecting to Stripe...",
+    "processing": "Processing..."
+  },
+  "security": "Secure payment processed by Stripe. We do not store card data.",
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "nameRequired": "Name is required",
+    "termsRequired": "You must accept the terms"
+  },
+  "errors": {
+    "paymentFailed": "Error processing payment. Please try again."
+  }
+}

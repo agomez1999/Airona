@@ -1,0 +1,31 @@
+{
+  "notFound": {
+    "title": "Order not found",
+    "subtitle": "We couldn't find your order. Check your email.",
+    "back": "Back to home"
+  },
+  "processing": {
+    "title": "Processing your payment…",
+    "subtitle": "This may take a few seconds."
+  },
+  "verifying": {
+    "title": "Verifying your payment",
+    "subtitle": "Confirmation may take a few minutes. You'll receive an email with your vouchers shortly.",
+    "back": "Back to home"
+  },
+  "failed": {
+    "title": "Payment not completed",
+    "subtitle": "The payment could not be processed. Nothing has been charged.",
+    "backCart": "Back to cart"
+  },
+  "success": {
+    "title": "Purchase confirmed!",
+    "order": "Order",
+    "vouchersEmail": "You'll receive your vouchers at",
+    "vouchersSection": "Your vouchers",
+    "validUntil": "Valid until",
+    "download": "Download PDF",
+    "totalPaid": "Total paid:",
+    "back": "Back to home"
+  }
+}

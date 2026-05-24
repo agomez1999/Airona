@@ -32,7 +32,12 @@
     "rights": "© {{year}} Airona Globus. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms & conditions",
-    "cookies": "Cookie policy"
+    "cookies": "Cookie policy",
+    "brandDesc": "Hot air balloon flights over the Empordà and Costa Brava for over 10 years.",
+    "infoSection": "Information",
+    "sharedFlight": "Shared flight",
+    "privateFlight": "Private flight",
+    "giftFlight": "Gift a flight"
   },
   "errors": {
     "notFound": "Page not found",

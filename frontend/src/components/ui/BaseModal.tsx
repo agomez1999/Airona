@@ -1,7 +1,7 @@
 import { useEffect, useRef, type ReactNode } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { IconClose } from './icons'
-import { modalOverlay, modalContent } from '@/lib/motion'
+import { modalOverlayVariants, modalContentVariants } from '@/lib/motion'
 
 const SIZE_CLASSES = {
   sm: 'max-w-lg',
@@ -22,8 +22,6 @@ interface BaseModalProps {
 export function BaseModal({ open, onClose, title, size = 'md', children, footer }: BaseModalProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const prefersReduced = useReducedMotion()
-  const overlay = prefersReduced ? {} : modalOverlay
-  const content = prefersReduced ? {} : modalContent
 
   useEffect(() => {
     if (!open) return
@@ -48,13 +46,19 @@ export function BaseModal({ open, onClose, title, size = 'md', children, footer 
         <motion.div
           className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
           onClick={e => e.target === e.currentTarget && onClose()}
-          {...overlay}
+          variants={prefersReduced ? undefined : modalOverlayVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
         >
           <motion.div
             ref={containerRef}
             tabIndex={-1}
             className={`bg-white rounded-2xl shadow-2xl w-full ${SIZE_CLASSES[size]} max-h-[90vh] flex flex-col outline-none`}
-            {...content}
+            variants={prefersReduced ? undefined : modalContentVariants}
+            initial="initial"
+            animate="animate"
+            exit="exit"
           >
             {/* Header */}
             <div className="px-6 py-4 border-b border-gray-100 flex items-center justify-between flex-shrink-0">

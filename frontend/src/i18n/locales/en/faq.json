@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before flying with Airona Globus"
+  },
+  "cta": {
+    "title": "Still have questions?",
+    "subtitle": "Our team is available Monday to Sunday. Call us on +34 652 907 515 or send us a message."
+  },
+  "categories": {
+    "safety": "Safety",
+    "experience": "The experience",
+    "bookings": "Bookings & cancellations",
+    "gift": "Gift voucher"
+  },
+  "safety": {
+    "q0": "Is hot air ballooning safe?",
+    "a0": "Absolutely. Flights only take place when weather conditions are optimal — our pilots monitor conditions for the 24 hours prior to each flight. All pilots are certified by the Spanish State Aviation Safety Agency (AESA) and have over 10 years of experience. Balloons also undergo regular technical inspections.",
+    "q1": "What certifications do your pilots hold?",
+    "a1": "All our pilots hold the hot air balloon pilot licence issued by the Spanish State Aviation Safety Agency (AESA). This licence requires rigorous training, a minimum number of flight hours and an annual medical review. Our pilots also have over 10 years of experience flying over the Empordà.",
+    "q2": "Are there any restrictions for flying?",
+    "a2": "Yes. Hot air ballooning is not recommended for pregnant women or children under 6. Smoking on board is not permitted. The maximum weight per passenger is 95 kg — if your weight is higher, please contact us before booking. The activity is also subject to weather conditions."
+  },
+  "experience": {
+    "q0": "How long does the flight last?",
+    "a0": "The complete experience lasts 3 to 4 hours. The flight itself lasts approximately 1 hour. Add to that balloon preparation and inflation (around 30 minutes), the cava toast on landing, and the return transfer to the meeting point.",
+    "q1": "What time do flights depart?",
+    "a1": "We fly at sunrise to take advantage of the best wind conditions and the golden morning light. In summer, flights depart at 6:30. In winter, departure is at 8:00. The meeting point is in Colomers (Empordà).",
+    "q2": "How high do we fly?",
+    "a2": "We fly between 300 and 1,000 metres altitude, depending on wind conditions and the landscape. We always seek the best perspective of the region — on clear days you can see the Pyrenees to the north and the Mediterranean to the east.",
+    "q3": "What's included in the price?",
+    "a3": "The price includes approximately 1 hour of balloon flight, the cava toast on landing, photos and 360° video of the flight, the AESA certified pilot and flight insurance. The return transfer to the meeting point is also included.",
+    "q4": "What should I bring?",
+    "a4": "Comfortable clothing suitable for walking and sports or closed-toe shoes. The temperature during the flight is similar to that on the ground, so dress for the season. In cold months, layer up. We also recommend a sun cap and, of course, your camera."
+  },
+  "bookings": {
+    "q0": "What happens if there's bad weather on my flight day?",
+    "a0": "Your safety is the priority. If weather conditions are not suitable, the flight is rescheduled at no extra cost to you. Our pilots make this decision in advance and we notify you as early as possible.",
+    "q1": "How far in advance should I book?",
+    "a1": "We recommend booking at least 2 to 3 weeks in advance, especially in spring and summer which are the busiest months. At Christmas and Valentine's Day spots fill up fast. That said, you can always check last-minute availability.",
+    "q2": "Do gift vouchers expire?",
+    "a2": "Yes, gift vouchers are valid for 1 year from the date of purchase. The person who receives the gift is the one who chooses the flight date. Within that year, they can fly on any available day.",
+    "q3": "How many people can fit in the basket?",
+    "a3": "The basket is designed for 2 to 8 passengers, allowing you to share this special moment in an intimate setting. For the private flight, the basket is for you and the companions you choose (up to 8 people in total, including the pilot)."
+  },
+  "giftVoucher": {
+    "q0": "How does the gift voucher work?",
+    "a0": "You buy the gift voucher online in just a few minutes. You receive it instantly by email as a personalised voucher ready to print or send digitally. The person who receives it chooses the flight date with full flexibility, within the one-year validity period.",
+    "q1": "Which flight type can the gift voucher be used for?",
+    "a1": "You can buy the gift voucher for either the shared or the private flight, depending on what you want to give. In both cases, the person who receives the gift chooses the date and arranges their booking directly with us."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Finaliser la commande",
+  "summary": "Récapitulatif",
+  "fields": {
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "votre@email.com",
+    "name": "Nom complet",
+    "namePlaceholder": "Votre nom complet"
+  },
+  "terms": {
+    "accept": "J'accepte les",
+    "termsLink": "conditions générales",
+    "and": "et la",
+    "privacyLink": "politique de confidentialité"
+  },
+  "buttons": {
+    "pay": "Payer {{amount}}",
+    "redirecting": "Redirection vers Stripe...",
+    "processing": "Traitement en cours..."
+  },
+  "security": "Paiement sécurisé traité par Stripe. Nous ne stockons pas les données de carte.",
+  "validation": {
+    "emailRequired": "L'adresse e-mail est requise",
+    "emailInvalid": "Adresse e-mail invalide",
+    "nameRequired": "Le nom est requis",
+    "termsRequired": "Vous devez accepter les conditions"
+  },
+  "errors": {
+    "paymentFailed": "Erreur lors du traitement du paiement. Veuillez réessayer."
+  }
+}

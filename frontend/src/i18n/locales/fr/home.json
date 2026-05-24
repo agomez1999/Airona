@@ -15,8 +15,40 @@
     "satisfaction": "Noté 5 étoiles",
     "safety": "Pilotes certifiés AESA"
   },
+  "included": {
+    "title": "Inclus dans chaque vol",
+    "cava": "Toast au cava",
+    "photos": "Photos & vidéo 360°",
+    "pilot": "Pilote certifié AESA",
+    "sunrise": "Vol au lever du soleil"
+  },
   "testimonials": {
-    "title": "Ce que disent ceux qui ont déjà volé"
+    "title": "Ce que disent ceux qui ont déjà volé",
+    "0": "Une expérience qui change vraiment la perspective. Le lever du soleil sur l'Empordà depuis la montgolfière est quelque chose qu'on ne peut pas décrire avec des mots. L'équipe d'Airona soigne chaque détail.",
+    "1": "J'ai réservé le vol privé pour l'anniversaire de ma femme et c'était tout simplement magique. Voir la Costa Brava et la Méditerranée à 800 mètres d'altitude, avec les Pyrénées en arrière-plan... inoubliable.",
+    "2": "J'ai offert ce vol à mon mari et il m'a dit que c'était le plus beau cadeau de sa vie. Le toast au cava à l'atterrissage, les photos du vol... tout était parfait. Nous reviendrons."
+  },
+  "placeholders": {
+    "shared": {
+      "label": "Vol Partagé",
+      "desc": "Vivez l'expérience au meilleur prix ! Nacelle jusqu'à 8 personnes, départ à l'aube depuis Colomers."
+    },
+    "private": {
+      "label": "Vol Exclusif",
+      "desc": "Profitez d'un vol exclusif, rien que pour vous et vos proches. Nacelle jusqu'à 8 personnes, entièrement personnalisé."
+    },
+    "gift": {
+      "label": "Bon Cadeau",
+      "desc": "Le destinataire choisit la date. Valable 1 an à partir de l'achat. Envoyé instantanément par email."
+    }
+  },
+  "faq": {
+    "q0": "Est-il sécurisé de voler en montgolfière ?",
+    "a0": "Oui. Les vols n'ont lieu que lorsque les conditions météorologiques sont optimales. Tous nos pilotes sont certifiés par l'Agence espagnole de sécurité aérienne (AESA) et ont plus de 10 ans d'expérience.",
+    "q1": "Combien de temps dure l'expérience ?",
+    "a1": "L'expérience complète dure entre 3 et 4 heures. Elle comprend la préparation et le gonflage de la montgolfière, environ 1 heure de vol, le toast au cava à l'atterrissage et le retour au point de départ.",
+    "q2": "Que se passe-t-il en cas de mauvais temps ?",
+    "a2": "Nos pilotes surveillent constamment la météo. Si les conditions ne sont pas sûres, le vol est reprogrammé sans frais supplémentaires. Votre sécurité est toujours la priorité."
   },
   "faqSnippet": {
     "title": "Des questions sur le vol ?",

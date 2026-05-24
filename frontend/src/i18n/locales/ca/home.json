@@ -15,8 +15,40 @@
     "satisfaction": "Valoració 5 estrelles",
     "safety": "Pilots certificats AESA"
   },
+  "included": {
+    "title": "Inclòs en cada vol",
+    "cava": "Brindis amb cava",
+    "photos": "Fotos i vídeo 360°",
+    "pilot": "Pilot certificat AESA",
+    "sunrise": "Vol a l'alba"
+  },
   "testimonials": {
-    "title": "El que diuen els qui ja han volat"
+    "title": "El que diuen els qui ja han volat",
+    "0": "Una experiència que et canvia la perspectiva, literalment. L'alba sobre l'Empordà des del globus és quelcom que no es pot explicar amb paraules. L'equip d'Airona cuida cada detall.",
+    "1": "Vaig reservar el vol privat per a l'aniversari de la meva dona i va ser simplement màgic. Veure la Costa Brava i el Mediterrani des de 800 metres d'alçada, amb el Pirineu al fons... inoblidable.",
+    "2": "Li vaig regalar aquest vol al meu marit i va dir que va ser el millor regal de la seva vida. El brindis amb cava en aterrar, les fotos del vol... tot perfecte. Tornarem."
+  },
+  "placeholders": {
+    "shared": {
+      "label": "Vol Compartit",
+      "desc": "Viu l'experiència al millor preu! Cistella per a fins a 8 persones, sortida a l'alba des de Colomers."
+    },
+    "private": {
+      "label": "Vol Exclusiu",
+      "desc": "Gaudeix d'un vol exclusiu, només per a tu i qui vulguis. Cistella de fins a 8 persones, totalment personalitzat."
+    },
+    "gift": {
+      "label": "Xec Regal",
+      "desc": "La persona que rep el regal tria la data. Vàlid 1 any des de la compra. Enviat a l'instant per email."
+    }
+  },
+  "faq": {
+    "q0": "És segur volar en globus aerostàtic?",
+    "a0": "Sí. Els vols només es realitzen quan les condicions meteorològiques són òptimes. Tots els nostres pilots estan certificats per l'Agència Estatal de Seguretat Aèria (AESA) i tenen més de 10 anys d'experiència.",
+    "q1": "Quant dura l'experiència?",
+    "a1": "L'experiència completa dura entre 3 i 4 hores. Inclou la preparació i inflat del globus, aproximadament 1 hora de vol, el brindis amb cava en aterrar i el trasllat de tornada al punt de sortida.",
+    "q2": "Què passa si hi ha mal temps?",
+    "a2": "Els nostres pilots monitoritzen el temps constantment. Si les condicions no són segures, el vol es reprograma sense cap cost addicional. La teva seguretat és sempre la prioritat."
   },
   "faqSnippet": {
     "title": "Tens dubtes sobre el vol?",

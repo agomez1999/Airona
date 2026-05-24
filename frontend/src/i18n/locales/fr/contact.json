@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "Nous sommes là pour vous aider",
+    "subtitle": "Dites-nous ce dont vous avez besoin et nous vous répondrons dès que possible. Vous pouvez aussi nous appeler directement."
+  },
+  "form": {
+    "title": "Écrivez-nous",
+    "name": "Prénom et nom",
+    "email": "Adresse e-mail",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "subjects": [
+      "Informations sur les vols",
+      "Réserver un vol",
+      "Bon cadeau",
+      "Groupes et événements",
+      "Conditions et annulations",
+      "Autre"
+    ]
+  },
+  "info": {
+    "title": "Informations de contact",
+    "phone": "Téléphone",
+    "meetingPoint": "Point de rendez-vous",
+    "schedule": "Horaires de vols",
+    "scheduleValue": "Été 6h30 · Hiver 8h00",
+    "season": "Saison",
+    "seasonValue": "Toute l'année (selon météo)",
+    "follow": "Suivez-nous"
+  },
+  "status": {
+    "success": "Message envoyé ! Nous vous répondrons dans les plus brefs délais.",
+    "successPhone": "Vous pouvez aussi nous appeler au +34 652 907 515.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer ou nous appeler directement."
+  }
+}

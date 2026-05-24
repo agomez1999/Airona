@@ -1,0 +1,31 @@
+{
+  "notFound": {
+    "title": "Pedido no encontrado",
+    "subtitle": "No pudimos encontrar tu pedido. Revisa tu email.",
+    "back": "Volver al inicio"
+  },
+  "processing": {
+    "title": "Procesando tu pago…",
+    "subtitle": "Esto puede tardar unos segundos."
+  },
+  "verifying": {
+    "title": "Verificando tu pago",
+    "subtitle": "La confirmación puede tardar unos minutos. Recibirás un email con tus vales en breve.",
+    "back": "Volver al inicio"
+  },
+  "failed": {
+    "title": "Pago no completado",
+    "subtitle": "El pago no pudo procesarse. No se ha cobrado nada.",
+    "backCart": "Volver al carrito"
+  },
+  "success": {
+    "title": "¡Compra confirmada!",
+    "order": "Pedido",
+    "vouchersEmail": "Recibirás tus vales en",
+    "vouchersSection": "Tus vales",
+    "validUntil": "Válido hasta",
+    "download": "Descargar PDF",
+    "totalPaid": "Total pagado:",
+    "back": "Volver al inicio"
+  }
+}

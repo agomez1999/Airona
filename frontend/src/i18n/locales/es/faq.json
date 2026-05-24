@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber antes de volar con Airona Globus"
+  },
+  "cta": {
+    "title": "¿Todavía tienes alguna duda?",
+    "subtitle": "Nuestro equipo está disponible de lunes a domingo. Llámanos al +34 652 907 515 o escríbenos."
+  },
+  "categories": {
+    "safety": "Seguridad",
+    "experience": "La experiencia",
+    "bookings": "Reservas y cancelaciones",
+    "gift": "Cheque regalo"
+  },
+  "safety": {
+    "q0": "¿Es seguro volar en globo aerostático?",
+    "a0": "Absolutamente. Los vuelos solo se realizan cuando las condiciones meteorológicas son óptimas — nuestros pilotos monitorizan el tiempo durante las 24 horas previas al vuelo. Todos están certificados por la Agencia Estatal de Seguridad Aérea (AESA) y cuentan con más de 10 años de experiencia. Además, los globos pasan revisiones técnicas periódicas.",
+    "q1": "¿Qué certificaciones tienen vuestros pilotos?",
+    "a1": "Todos nuestros pilotos poseen la licencia de piloto de globo aerostático emitida por la Agencia Estatal de Seguridad Aérea (AESA). Esta licencia requiere una formación rigurosa, un número mínimo de horas de vuelo y una revisión médica anual. Nuestros pilotos también tienen experiencia de más de 10 años volando en el Empordà.",
+    "q2": "¿Hay restricciones para volar?",
+    "a2": "Sí. El vuelo en globo no está recomendado para mujeres embarazadas ni para niños menores de 6 años. Está prohibido fumar a bordo. El peso máximo por pasajero es de 95 kg — si tu peso es superior, consúltanos antes de reservar. La actividad también está condicionada a las condiciones meteorológicas."
+  },
+  "experience": {
+    "q0": "¿Cuánto dura el vuelo?",
+    "a0": "La experiencia completa dura entre 3 y 4 horas. El vuelo propiamente dicho dura aproximadamente 1 hora. A esto hay que añadir el tiempo de preparación e inflado del globo (unos 30 minutos), el brindis con cava al aterrizar y el traslado de vuelta al punto de encuentro.",
+    "q1": "¿A qué hora salen los vuelos?",
+    "a1": "Volamos al amanecer para aprovechar las mejores condiciones de viento y la luz dorada de la mañana. En verano, los vuelos salen a las 6:30 h. En invierno, la salida es a las 8:00 h. El punto de encuentro es en Colomers (Empordà).",
+    "q2": "¿A qué altura volamos?",
+    "a2": "Volamos entre 300 y 1.000 metros de altitud, dependiendo de las condiciones del viento y del paisaje. Siempre buscamos la mejor perspectiva de la comarca: en días claros se pueden ver los Pirineos al norte y el Mediterráneo al este.",
+    "q3": "¿Qué está incluido en el precio?",
+    "a3": "El precio incluye el vuelo en globo de aproximadamente 1 hora, el brindis con cava al aterrizar, fotos y vídeo 360° del vuelo, el piloto certificado AESA y el seguro de vuelo. El traslado de vuelta al punto de encuentro también está incluido.",
+    "q4": "¿Qué debo llevar?",
+    "a4": "Ropa cómoda adecuada para caminar y calzado deportivo o cerrado. La temperatura durante el vuelo es similar a la del suelo, así que viste según la época del año. En meses fríos, varias capas. Te recomendamos también una gorra para el sol y, por supuesto, la cámara de fotos."
+  },
+  "bookings": {
+    "q0": "¿Qué pasa si hay mal tiempo el día de mi vuelo?",
+    "a0": "Tu seguridad es la prioridad. Si las condiciones meteorológicas no son adecuadas, el vuelo se reprograma sin ningún coste adicional para ti. Nuestros pilotos toman esta decisión con antelación y te avisamos lo antes posible.",
+    "q1": "¿Con cuánta antelación debo reservar?",
+    "a1": "Recomendamos reservar con al menos 2 o 3 semanas de antelación, especialmente en primavera y verano que son los meses de mayor demanda. En Navidad y San Valentín las plazas se agotan rápido. Dicho esto, siempre puedes consultar disponibilidad de última hora.",
+    "q2": "¿Los cheques regalo tienen fecha de caducidad?",
+    "a2": "Sí, los cheques regalo son válidos durante 1 año a partir de la fecha de compra. La persona que recibe el regalo es quien elige la fecha del vuelo. Dentro de ese año, puede volar en cualquiera de los días disponibles.",
+    "q3": "¿Cuántas personas caben en la cesta del globo?",
+    "a3": "La cesta está diseñada para entre 2 y 8 pasajeros, lo que te permite compartir este momento especial en un ambiente íntimo. Para el vuelo privado, la cesta es para ti y los acompañantes que elijas (hasta 8 personas en total, incluyendo el piloto)."
+  },
+  "giftVoucher": {
+    "q0": "¿Cómo funciona el cheque regalo?",
+    "a0": "Compras el cheque regalo online en unos minutos. Lo recibes al instante en tu correo electrónico como un vale personalizado listo para imprimir o enviar digitalmente. La persona que lo recibe elige la fecha del vuelo con total flexibilidad, siempre dentro del año de validez.",
+    "q1": "¿Para qué tipo de vuelo sirve el cheque regalo?",
+    "a1": "Puedes comprar el cheque regalo para el vuelo compartido o para el vuelo privado, según lo que quieras regalar. En ambos casos, la persona que recibe el regalo elige la fecha y gestiona su reserva directamente con nosotros."
+  }
+}

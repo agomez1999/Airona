@@ -32,7 +32,12 @@
     "rights": "© {{year}} Airona Globus. Tots els drets reservats.",
     "privacy": "Política de privacitat",
     "terms": "Termes i condicions",
-    "cookies": "Política de cookies"
+    "cookies": "Política de cookies",
+    "brandDesc": "Vols en globus sobre l'Empordà i la Costa Brava des de fa més de 10 anys.",
+    "infoSection": "Informació",
+    "sharedFlight": "Vol compartit",
+    "privateFlight": "Vol privat",
+    "giftFlight": "Regala un vol"
   },
   "errors": {
     "notFound": "Pàgina no trobada",

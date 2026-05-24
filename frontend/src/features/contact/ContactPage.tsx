@@ -19,6 +19,7 @@ interface FormData {
 export function ContactPage() {
   const { locale } = useOutletContext<LocaleContext>()
   const { t: tSeo } = useTranslation('seo')
+  const { t: tContact } = useTranslation('contact')
 
   const [form, setForm] = useState<FormData>({ name: '', email: '', subject: '', message: '' })
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
@@ -39,39 +40,7 @@ export function ContactPage() {
     }
   }
 
-  const labels = {
-    name: { es: 'Nombre', ca: 'Nom', fr: 'Prénom et nom', en: 'Name' },
-    email: { es: 'Correo electrónico', ca: 'Correu electrònic', fr: 'Adresse e-mail', en: 'Email address' },
-    subject: { es: 'Asunto', ca: 'Assumpte', fr: 'Sujet', en: 'Subject' },
-    message: { es: 'Tu mensaje', ca: 'El teu missatge', fr: 'Votre message', en: 'Your message' },
-    send: { es: 'Enviar mensaje', ca: 'Enviar missatge', fr: 'Envoyer le message', en: 'Send message' },
-    success: {
-      es: '¡Mensaje enviado! Te responderemos lo antes posible.',
-      ca: 'Missatge enviat! Et respondrem el més aviat possible.',
-      fr: 'Message envoyé ! Nous vous répondrons dans les plus brefs délais.',
-      en: 'Message sent! We\'ll get back to you as soon as possible.',
-    },
-    error: {
-      es: 'Error al enviar. Por favor, inténtalo de nuevo o llámanos directamente.',
-      ca: 'Error en enviar. Si us plau, torna-ho a intentar o truca\'ns directament.',
-      fr: 'Erreur lors de l\'envoi. Veuillez réessayer ou nous appeler directement.',
-      en: 'Error sending message. Please try again or call us directly.',
-    },
-    subjects: {
-      es: ['Información sobre vuelos', 'Reservar un vuelo', 'Cheque regalo', 'Grupos y eventos', 'Condiciones y cancelaciones', 'Otro'],
-      ca: ['Informació sobre vols', 'Reservar un vol', 'Xec regal', 'Grups i esdeveniments', 'Condicions i cancel·lacions', 'Altre'],
-      fr: ['Informations sur les vols', 'Réserver un vol', 'Bon cadeau', 'Groupes et événements', 'Conditions et annulations', 'Autre'],
-      en: ['Flight information', 'Book a flight', 'Gift voucher', 'Groups & events', 'Conditions & cancellations', 'Other'],
-    },
-    formTitle: { es: 'Escríbenos', ca: 'Escriu-nos', fr: 'Écrivez-nous', en: 'Send us a message' },
-    infoTitle: { es: 'Información de contacto', ca: 'Informació de contacte', fr: 'Informations de contact', en: 'Contact information' },
-    heroTitle: {
-      es: 'Estamos aquí para ayudarte',
-      ca: 'Estem aquí per ajudar-te',
-      fr: 'Nous sommes là pour vous aider',
-      en: 'We\'re here to help',
-    },
-  }
+  const subjects: string[] = tContact('form.subjects', { returnObjects: true }) as string[]
 
   return (
     <>
@@ -87,13 +56,10 @@ export function ContactPage() {
       <section className="pt-24 pb-16 px-4 text-center bg-gradient-to-b from-brand-sky/10 to-brand-cream">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-5xl font-display font-bold text-brand-dusk mb-4">
-            {labels.heroTitle[locale]}
+            {tContact('hero.title')}
           </h1>
           <p className="text-brand-dusk/60 text-xl max-w-xl mx-auto">
-            {locale === 'es' && 'Cuéntanos lo que necesitas y te responderemos lo antes posible. También puedes llamarnos directamente.'}
-            {locale === 'ca' && 'Explica\'ns el que necessites i et respondrem el més aviat possible. També ens pots trucar directament.'}
-            {locale === 'fr' && 'Dites-nous ce dont vous avez besoin et nous vous répondrons dès que possible. Vous pouvez aussi nous appeler directement.'}
-            {locale === 'en' && 'Tell us what you need and we\'ll get back to you as soon as possible. You can also call us directly.'}
+            {tContact('hero.subtitle')}
           </p>
         </div>
       </section>
@@ -104,13 +70,13 @@ export function ContactPage() {
           {/* Contact info */}
           <div>
             <h2 className="text-2xl font-display font-bold text-brand-dusk mb-8">
-              {labels.infoTitle[locale]}
+              {tContact('info.title')}
             </h2>
             <div className="space-y-6">
               {[
                 {
                   icon: '📞',
-                  label: { es: 'Teléfono', ca: 'Telèfon', fr: 'Téléphone', en: 'Phone' }[locale],
+                  label: tContact('info.phone'),
                   value: '+34 652 907 515',
                   href: 'tel:+34652907515',
                 },
@@ -122,25 +88,20 @@ export function ContactPage() {
                 },
                 {
                   icon: '📍',
-                  label: { es: 'Punto de encuentro', ca: 'Punt de trobada', fr: 'Point de rendez-vous', en: 'Meeting point' }[locale],
+                  label: tContact('info.meetingPoint'),
                   value: 'Colomers, Empordà (Girona)',
                   href: null,
                 },
                 {
                   icon: '🕐',
-                  label: { es: 'Horario de vuelos', ca: 'Horari de vols', fr: 'Horaires de vols', en: 'Flight schedule' }[locale],
-                  value: {
-                    es: 'Verano 6:30 h · Invierno 8:00 h',
-                    ca: 'Estiu 6:30 h · Hivern 8:00 h',
-                    fr: 'Été 6h30 · Hiver 8h00',
-                    en: 'Summer 6:30 · Winter 8:00',
-                  }[locale],
+                  label: tContact('info.schedule'),
+                  value: tContact('info.scheduleValue'),
                   href: null,
                 },
                 {
                   icon: '📅',
-                  label: { es: 'Temporada', ca: 'Temporada', fr: 'Saison', en: 'Season' }[locale],
-                  value: { es: 'Todo el año (según meteorología)', ca: 'Tot l\'any (segons meteorologia)', fr: 'Toute l\'année (selon météo)', en: 'Year-round (weather permitting)' }[locale],
+                  label: tContact('info.season'),
+                  value: tContact('info.seasonValue'),
                   href: null,
                 },
               ].map(({ icon, label, value, href }, i) => (
@@ -163,7 +124,7 @@ export function ContactPage() {
             {/* Social links */}
             <div className="mt-10">
               <p className="text-sm text-brand-dusk/50 font-medium mb-4">
-                {locale === 'es' ? 'Síguenos' : locale === 'ca' ? 'Segueix-nos' : locale === 'fr' ? 'Suivez-nous' : 'Follow us'}
+                {tContact('info.follow')}
               </p>
               <div className="flex gap-3">
                 {[
@@ -183,32 +144,29 @@ export function ContactPage() {
           {/* Contact form */}
           <div>
             <h2 className="text-2xl font-display font-bold text-brand-dusk mb-8">
-              {labels.formTitle[locale]}
+              {tContact('form.title')}
             </h2>
 
             {status === 'success' ? (
               <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-green-800 text-center">
                 <div className="text-4xl mb-3">✓</div>
-                <p className="font-semibold text-lg mb-1">{labels.success[locale]}</p>
+                <p className="font-semibold text-lg mb-1">{tContact('status.success')}</p>
                 <p className="text-sm text-green-700">
-                  {locale === 'es' && 'También puedes llamarnos al +34 652 907 515.'}
-                  {locale === 'ca' && 'També ens pots trucar al +34 652 907 515.'}
-                  {locale === 'fr' && 'Vous pouvez aussi nous appeler au +34 652 907 515.'}
-                  {locale === 'en' && 'You can also call us on +34 652 907 515.'}
+                  {tContact('status.successPhone')}
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
                 {status === 'error' && (
                   <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-red-700 text-sm">
-                    {labels.error[locale]}
+                    {tContact('status.error')}
                   </div>
                 )}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-brand-dusk mb-1.5">
-                      {labels.name[locale]}
+                      {tContact('form.name')}
                     </label>
                     <input
                       id="name"
@@ -222,7 +180,7 @@ export function ContactPage() {
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-brand-dusk mb-1.5">
-                      {labels.email[locale]}
+                      {tContact('form.email')}
                     </label>
                     <input
                       id="email"
@@ -238,7 +196,7 @@ export function ContactPage() {
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-brand-dusk mb-1.5">
-                    {labels.subject[locale]}
+                    {tContact('form.subject')}
                   </label>
                   <select
                     id="subject"
@@ -249,13 +207,13 @@ export function ContactPage() {
                     className="w-full px-4 py-3 rounded-lg border border-brand-mist bg-white text-brand-dusk focus:outline-none focus:ring-2 focus:ring-brand-gold/30 focus:border-brand-gold transition-colors"
                   >
                     <option value=""></option>
-                    {labels.subjects[locale].map(s => <option key={s} value={s}>{s}</option>)}
+                    {subjects.map(s => <option key={s} value={s}>{s}</option>)}
                   </select>
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-brand-dusk mb-1.5">
-                    {labels.message[locale]}
+                    {tContact('form.message')}
                   </label>
                   <textarea
                     id="message"
@@ -273,9 +231,7 @@ export function ContactPage() {
                   disabled={status === 'sending'}
                   className="w-full py-4 rounded-full bg-brand-gold text-white font-semibold hover:bg-brand-gold/90 transition-all disabled:opacity-60"
                 >
-                  {status === 'sending'
-                    ? (locale === 'es' ? 'Enviando...' : locale === 'ca' ? 'Enviant...' : locale === 'fr' ? 'Envoi en cours...' : 'Sending...')
-                    : labels.send[locale]}
+                  {status === 'sending' ? tContact('form.sending') : tContact('form.send')}
                 </button>
               </form>
             )}

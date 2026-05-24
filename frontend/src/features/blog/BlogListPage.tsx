@@ -2,12 +2,14 @@ import { useOutletContext } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
+import { motion } from 'framer-motion'
 import type { LocaleContext } from '@/components/layout/LocaleLayout'
 import { MetaTags } from '@/components/seo/MetaTags'
 import { HreflangTags } from '@/components/seo/HreflangTags'
 import { LazyImage } from '@/components/common/LazyImage'
 import { buildLocalePath } from '@/config/routes'
 import apiClient from '@/services/api/client'
+import { fadeUpVariants, staggerContainerVariants, staggerItemVariants } from '@/lib/motion'
 
 const SITE_URL = import.meta.env.VITE_SITE_URL ?? 'https://airona.com'
 
@@ -48,12 +50,17 @@ export function BlogListPage() {
 
       {/* Hero */}
       <section className="pt-24 pb-16 px-4 text-center bg-gradient-to-b from-brand-sky/10 to-brand-cream">
-        <div className="max-w-3xl mx-auto">
+        <motion.div
+          className="max-w-3xl mx-auto"
+          variants={fadeUpVariants}
+          initial="hidden"
+          animate="visible"
+        >
           <h1 className="text-5xl font-display font-bold text-brand-dusk mb-4">
             {locale === 'es' ? 'Blog' : locale === 'ca' ? 'Blog' : locale === 'fr' ? 'Blog' : 'Blog'}
           </h1>
           <p className="text-brand-dusk/60 text-xl">{tSeo('blog.description')}</p>
-        </div>
+        </motion.div>
       </section>
 
       {/* Posts */}
@@ -76,9 +83,15 @@ export function BlogListPage() {
             {locale === 'es' ? 'Próximamente...' : locale === 'ca' ? 'Pròximament...' : locale === 'fr' ? 'Bientôt...' : 'Coming soon...'}
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            variants={staggerContainerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
             {posts.map(post => (
-              <article key={post.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+              <motion.article key={post.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group" variants={staggerItemVariants}>
                 <Link to={`${buildLocalePath(locale, 'blog')}${post.slug}/`} className="block">
                   <div className="aspect-[16/9] overflow-hidden">
                     {post.cover_image ? (
@@ -119,9 +132,9 @@ export function BlogListPage() {
                     </p>
                   )}
                 </div>
-              </article>
+              </motion.article>
             ))}
-          </div>
+          </motion.div>
         )}
       </section>
     </>

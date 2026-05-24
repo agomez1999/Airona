@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "We're here to help",
+    "subtitle": "Tell us what you need and we'll get back to you as soon as possible. You can also call us directly."
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": "Name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "subjects": [
+      "Flight information",
+      "Book a flight",
+      "Gift voucher",
+      "Groups & events",
+      "Conditions & cancellations",
+      "Other"
+    ]
+  },
+  "info": {
+    "title": "Contact information",
+    "phone": "Phone",
+    "meetingPoint": "Meeting point",
+    "schedule": "Flight schedule",
+    "scheduleValue": "Summer 6:30 · Winter 8:00",
+    "season": "Season",
+    "seasonValue": "Year-round (weather permitting)",
+    "follow": "Follow us"
+  },
+  "status": {
+    "success": "Message sent! We'll get back to you as soon as possible.",
+    "successPhone": "You can also call us on +34 652 907 515.",
+    "error": "Error sending message. Please try again or call us directly."
+  }
+}

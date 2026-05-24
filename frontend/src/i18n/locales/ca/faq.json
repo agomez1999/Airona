@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Preguntes Freqüents",
+    "subtitle": "Tot el que necessites saber abans de volar amb Airona Globus"
+  },
+  "cta": {
+    "title": "Encara tens algun dubte?",
+    "subtitle": "El nostre equip és disponible de dilluns a diumenge. Truca'ns al +34 652 907 515 o escriu-nos."
+  },
+  "categories": {
+    "safety": "Seguretat",
+    "experience": "L'experiència",
+    "bookings": "Reserves i cancel·lacions",
+    "gift": "Xec regal"
+  },
+  "safety": {
+    "q0": "És segur volar en globus aerostàtic?",
+    "a0": "Absolutament. Els vols només es realitzen quan les condicions meteorològiques són òptimes — els nostres pilots monitoren el temps durant les 24 hores prèvies al vol. Tots estan certificats per l'Agència Estatal de Seguretat Aèria (AESA) i compten amb més de 10 anys d'experiència. A més, els globus passen revisions tècniques periòdiques.",
+    "q1": "Quines certificacions tenen els vostres pilots?",
+    "a1": "Tots els nostres pilots posseeixen la llicència de pilot de globus aerostàtic emesa per l'Agència Estatal de Seguretat Aèria (AESA). Aquesta llicència requereix una formació rigorosa, un nombre mínim d'hores de vol i una revisió mèdica anual. Els nostres pilots també tenen més de 10 anys d'experiència volant a l'Empordà.",
+    "q2": "Hi ha restriccions per volar?",
+    "a2": "Sí. El vol en globus no es recomana per a dones embarassades ni per a nens menors de 6 anys. Està prohibit fumar a bord. El pes màxim per passatger és de 95 kg — si el teu pes és superior, consulta'ns abans de reservar. L'activitat també està condicionada a les condicions meteorològiques."
+  },
+  "experience": {
+    "q0": "Quant de temps dura el vol?",
+    "a0": "L'experiència completa dura entre 3 i 4 hores. El vol pròpiament dit dura aproximadament 1 hora. A això cal afegir el temps de preparació i inflat del globus (uns 30 minuts), el brindis amb cava en aterrar i el trasllat de tornada al punt de trobada.",
+    "q1": "A quina hora surten els vols?",
+    "a1": "Volem a l'alba per aprofitar les millors condicions de vent i la llum daurada del matí. A l'estiu, els vols surten a les 6:30 h. A l'hivern, la sortida és a les 8:00 h. El punt de trobada és a Colomers (Empordà).",
+    "q2": "A quina alçada volem?",
+    "a2": "Volem entre 300 i 1.000 metres d'altitud, depenent de les condicions del vent i del paisatge. Sempre busquem la millor perspectiva de la comarca: en dies clars es poden veure els Pirineus al nord i el Mediterrani a l'est.",
+    "q3": "Què inclou el preu?",
+    "a3": "El preu inclou el vol en globus d'aproximadament 1 hora, el brindis amb cava en aterrar, fotos i vídeo 360° del vol, el pilot certificat AESA i l'assegurança de vol. El trasllat de tornada al punt de trobada també hi és inclòs.",
+    "q4": "Què he de portar?",
+    "a4": "Roba còmoda adequada per caminar i calçat esportiu o tancat. La temperatura durant el vol és similar a la del terra, així que vesteix-te segons l'època de l'any. Als mesos freds, diverses capes. Et recomanem també una gorra per al sol i, per descomptat, la càmera de fotos."
+  },
+  "bookings": {
+    "q0": "Què passa si hi ha mal temps el dia del meu vol?",
+    "a0": "La teva seguretat és la prioritat. Si les condicions meteorològiques no són adequades, el vol es reprograma sense cap cost addicional per a tu. Els nostres pilots prenen aquesta decisió amb antelació i t'avisem el més aviat possible.",
+    "q1": "Amb quanta antelació he de reservar?",
+    "a1": "Recomanem reservar amb almenys 2 o 3 setmanes d'antelació, especialment a la primavera i l'estiu que són els mesos de major demanda. Per Nadal i Sant Valentí les places s'exhaureixen ràpid. Dit això, sempre pots consultar disponibilitat d'última hora.",
+    "q2": "Els xecs regal tenen data de caducitat?",
+    "a2": "Sí, els xecs regal són vàlids durant 1 any a partir de la data de compra. La persona que rep el regal és qui tria la data del vol. Dins d'aquell any, pot volar en qualsevol dels dies disponibles.",
+    "q3": "Quantes persones caben a la cistella del globus?",
+    "a3": "La cistella està dissenyada per entre 2 i 8 passatgers, la qual cosa et permet compartir aquest moment especial en un ambient íntim. Per al vol privat, la cistella és per a tu i els acompanyants que triïs (fins a 8 persones en total, incloent el pilot)."
+  },
+  "giftVoucher": {
+    "q0": "Com funciona el xec regal?",
+    "a0": "Compres el xec regal online en uns minuts. El reps a l'instant al teu correu electrònic com un val personalitzat llest per imprimir o enviar digitalment. La persona que el rep tria la data del vol amb total flexibilitat, sempre dins de l'any de validesa.",
+    "q1": "Per a quin tipus de vol serveix el xec regal?",
+    "a1": "Pots comprar el xec regal per al vol compartit o per al vol privat, segons el que vulguis regalar. En tots dos casos, la persona que rep el regal tria la data i gestiona la seva reserva directament amb nosaltres."
+  }
+}
