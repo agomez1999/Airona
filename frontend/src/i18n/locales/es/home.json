@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "headline": "Vuela sobre el Empordà al amanecer",
+    "subheadline": "Una hora de vuelo en globo aerostático sobre los paisajes más espectaculares de la Costa Brava y el Empordà. Pilotos certificados, brindis con cava incluido.",
+    "cta": "Ver experiencias",
+    "ctaGift": "Regalar un vuelo"
+  },
+  "experiences": {
+    "title": "Elige tu experiencia",
+    "subtitle": "Compartido, privado o como regalo — cada vuelo es una historia que no olvidarás"
+  },
+  "trust": {
+    "years": "{{n}}+ años volando",
+    "flights": "Más de {{n}} pasajeros",
+    "satisfaction": "Valoración 5 estrellas",
+    "safety": "Pilotos certificados AESA"
+  },
+  "testimonials": {
+    "title": "Lo que dicen quienes ya han volado"
+  },
+  "faqSnippet": {
+    "title": "¿Tienes dudas sobre el vuelo?",
+    "viewAll": "Ver todas las preguntas"
+  },
+  "cta": {
+    "title": "El cielo te espera",
+    "subtitle": "Reserva hoy y recibe tu vale al instante. Reprogramación gratuita por mal tiempo.",
+    "button": "Reservar mi vuelo"
+  }
+}

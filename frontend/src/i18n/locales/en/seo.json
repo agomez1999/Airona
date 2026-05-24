@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Hot Air Balloon Empordà & Costa Brava | Airona Globus — Girona",
+    "description": "Sunrise hot air balloon flights over the Empordà and Costa Brava. Unique views of the Mediterranean and Pyrenees. Shared, private or gift vouchers. Book online from Colomers, Girona."
+  },
+  "experiences": {
+    "title": "Hot Air Balloon Experiences | Airona Globus — Empordà, Costa Brava",
+    "description": "Choose your balloon flight over the Empordà: shared, private or a 1-year gift voucher. AESA-certified pilots. Cava toast and 360° photos included. Departures from Colomers."
+  },
+  "sharedFlight": {
+    "title": "Shared Hot Air Balloon Flight Empordà | Airona Globus — Costa Brava",
+    "description": "Shared hot air balloon flight over the Empordà. Groups up to 8 people, 1-hour sunrise flight, cava toast and 360° photos included. Departing from Colomers, Girona."
+  },
+  "privateFlight": {
+    "title": "Private Hot Air Balloon Flight Girona | Airona Globus — Exclusive Experience",
+    "description": "Private hot air balloon flight over the Costa Brava and Empordà. Just for you and your group. Personalised, intimate and premium service. AESA-certified pilots. Book now."
+  },
+  "gift": {
+    "title": "Hot Air Balloon Gift Voucher | Airona Globus — Valid 1 Year",
+    "description": "Gift a hot air balloon flight over the Empordà. Instant downloadable voucher, valid for 1 year. The recipient chooses the date. The most exciting gift in Catalonia."
+  },
+  "flightZone": {
+    "title": "Hot Air Balloon Flight Zone Empordà & Costa Brava | Airona Globus",
+    "description": "We depart from Colomers and fly over the Empordà, Costa Brava and the medieval landscapes of Girona. Views of the Mediterranean, the Pyrenees and the Alt and Baix Empordà fields."
+  },
+  "about": {
+    "title": "About Us — Airona Globus | Hot Air Balloon Experts, Empordà",
+    "description": "Airona Globus, specialists in hot air balloon flights over the Empordà and Costa Brava. AESA-certified pilots, over 10 years of experience and thousands of passengers in the sky."
+  },
+  "faq": {
+    "title": "Hot Air Ballooning FAQ | Airona Globus",
+    "description": "Everything about hot air balloon flights: safety, duration, schedules, what to wear, restrictions, pricing and how to book. Clear answers from the Airona Globus team."
+  },
+  "contact": {
+    "title": "Contact — Airona Globus | Hot Air Balloon Flights Empordà, Girona",
+    "description": "Questions about our balloon flights? Call +34 652 907 515 or send us a message. Departures from Colomers, Girona. We fly year-round when conditions allow."
+  },
+  "blog": {
+    "title": "Blog — Hot Air Balloon Flights & Adventures in the Empordà | Airona Globus",
+    "description": "Articles, guides and tips on hot air ballooning in the Empordà, Costa Brava and Girona. Real stories, unique landscapes and adventure tourism in Catalonia."
+  }
+}

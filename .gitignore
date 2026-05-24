@@ -1,0 +1,43 @@
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# ── Backend (Laravel) ─────────────────────────────────────────────────────────
+backend/vendor/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/storage/logs/*.log
+backend/storage/app/public/
+backend/bootstrap/cache/*.php
+backend/node_modules/
+
+# ── Frontend (Vite/React) ─────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ── Docker volumes (if accidentally created locally) ──────────────────────────
+docker/data/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+
+# ── Testing artifacts ─────────────────────────────────────────────────────────
+backend/coverage/
+frontend/coverage/
+playwright-report/
+test-results/

@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "headline": "Fly over the Empordà at sunrise",
+    "subheadline": "One hour in a hot air balloon above the most spectacular landscapes of the Costa Brava and Empordà. Certified pilots, cava toast included.",
+    "cta": "See experiences",
+    "ctaGift": "Gift a flight"
+  },
+  "experiences": {
+    "title": "Choose your experience",
+    "subtitle": "Shared, private or as a gift — every flight is a story you'll never forget"
+  },
+  "trust": {
+    "years": "{{n}}+ years flying",
+    "flights": "Over {{n}} passengers",
+    "satisfaction": "5-star rated",
+    "safety": "AESA certified pilots"
+  },
+  "testimonials": {
+    "title": "What people who've flown with us say"
+  },
+  "faqSnippet": {
+    "title": "Questions about the flight?",
+    "viewAll": "View all questions"
+  },
+  "cta": {
+    "title": "The sky is waiting",
+    "subtitle": "Book today and receive your voucher instantly. Free rescheduling if the weather turns.",
+    "button": "Book my flight"
+  }
+}

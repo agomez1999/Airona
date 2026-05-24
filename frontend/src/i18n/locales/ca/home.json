@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "headline": "Vola sobre l'Empordà a l'alba",
+    "subheadline": "Una hora de vol en globus aerostàtic sobre els paisatges més espectaculars de la Costa Brava i l'Empordà. Pilots certificats, brindis amb cava inclòs.",
+    "cta": "Veure experiències",
+    "ctaGift": "Regalar un vol"
+  },
+  "experiences": {
+    "title": "Tria la teva experiència",
+    "subtitle": "Compartit, privat o com a regal — cada vol és una història que no oblidaràs"
+  },
+  "trust": {
+    "years": "{{n}}+ anys volant",
+    "flights": "Més de {{n}} passatgers",
+    "satisfaction": "Valoració 5 estrelles",
+    "safety": "Pilots certificats AESA"
+  },
+  "testimonials": {
+    "title": "El que diuen els qui ja han volat"
+  },
+  "faqSnippet": {
+    "title": "Tens dubtes sobre el vol?",
+    "viewAll": "Veure totes les preguntes"
+  },
+  "cta": {
+    "title": "El cel t'espera",
+    "subtitle": "Reserva avui i rep el teu val a l'instant. Reprogramació gratuïta per mal temps.",
+    "button": "Reservar el meu vol"
+  }
+}

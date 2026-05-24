@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "headline": "Volez sur l'Empordà au lever du soleil",
+    "subheadline": "Une heure de vol en montgolfière au-dessus des paysages les plus spectaculaires de la Costa Brava et de l'Empordà. Pilotes certifiés, toast au cava inclus.",
+    "cta": "Voir les expériences",
+    "ctaGift": "Offrir un vol"
+  },
+  "experiences": {
+    "title": "Choisissez votre expérience",
+    "subtitle": "Partagé, privé ou en cadeau — chaque vol est une histoire que vous n'oublierez jamais"
+  },
+  "trust": {
+    "years": "{{n}}+ ans de vols",
+    "flights": "Plus de {{n}} passagers",
+    "satisfaction": "Noté 5 étoiles",
+    "safety": "Pilotes certifiés AESA"
+  },
+  "testimonials": {
+    "title": "Ce que disent ceux qui ont déjà volé"
+  },
+  "faqSnippet": {
+    "title": "Des questions sur le vol ?",
+    "viewAll": "Voir toutes les questions"
+  },
+  "cta": {
+    "title": "Le ciel vous attend",
+    "subtitle": "Réservez aujourd'hui et recevez votre bon instantanément. Reprogrammation gratuite en cas de mauvais temps.",
+    "button": "Réserver mon vol"
+  }
+}

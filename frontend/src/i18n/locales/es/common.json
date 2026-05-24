@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "experiences": "Experiencias",
+    "gift": "Regala una experiencia",
+    "flightZone": "Zona de vuelo",
+    "blog": "Blog",
+    "faq": "Preguntas frecuentes",
+    "about": "Quiénes somos",
+    "contact": "Contacto"
+  },
+  "cart": {
+    "title": "Tu carrito",
+    "empty": "Tu carrito está vacío",
+    "items_one": "{{count}} artículo",
+    "items_other": "{{count}} artículos",
+    "checkout": "Tramitar pedido",
+    "add": "Añadir al carrito",
+    "remove": "Eliminar",
+    "quantity": "Cantidad",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "total": "Total",
+    "promo": {
+      "label": "¿Tienes un código promocional?",
+      "placeholder": "Código",
+      "apply": "Aplicar",
+      "remove": "Quitar",
+      "applied": "¡Código aplicado!"
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Airona Globus. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "cookies": "Política de cookies"
+  },
+  "errors": {
+    "notFound": "Página no encontrada",
+    "generic": "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
+    "loading": "Cargando..."
+  },
+  "actions": {
+    "buy": "Comprar ahora",
+    "learnMore": "Saber más",
+    "back": "Volver",
+    "close": "Cerrar",
+    "download": "Descargar"
+  },
+  "language": "Idioma"
+}

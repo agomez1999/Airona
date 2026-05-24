@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Vuelo en Globo Empordà y Costa Brava | Airona Globus — Girona",
+    "description": "Vuela en globo aerostático al amanecer sobre el Empordà y la Costa Brava. Vistas únicas del Mediterráneo y los Pirineos. Compartido, privado o cheque regalo. Reserva online desde Colomers, Girona."
+  },
+  "experiences": {
+    "title": "Vuelos en Globo Aerostático | Airona Globus — Empordà, Costa Brava",
+    "description": "Elige tu vuelo en globo sobre el Empordà: compartido, privado o cheque regalo válido 1 año. Pilotos certificados AESA. Brindis con cava y fotos 360° incluidos. Salida desde Colomers."
+  },
+  "sharedFlight": {
+    "title": "Vuelo en Globo Compartido Empordà | Airona Globus — Costa Brava",
+    "description": "Vuelo en globo aerostático compartido sobre el Empordà. Grupos de hasta 8 personas, 1 hora de vuelo al amanecer, brindis con cava y fotos 360° incluidos. Salida desde Colomers, Girona."
+  },
+  "privateFlight": {
+    "title": "Vuelo en Globo Privado Girona | Airona Globus — Experiencia Exclusiva",
+    "description": "Vuelo privado en globo aerostático sobre la Costa Brava y el Empordà. Solo para ti y tu grupo. Personalizado, íntimo y con servicio premium. Pilotos certificados AESA. Reserva ya."
+  },
+  "gift": {
+    "title": "Cheque Regalo Vuelo en Globo | Airona Globus — Válido 1 Año",
+    "description": "Regala un vuelo en globo aerostático sobre el Empordà. Cheque regalo descargable al instante, válido 1 año. La persona elegida elige la fecha. El regalo más emocionante de Cataluña."
+  },
+  "flightZone": {
+    "title": "Zona de Vuelo en Globo Empordà y Costa Brava | Airona Globus",
+    "description": "Despegamos desde Colomers y sobrevolamos el Empordà, la Costa Brava y los paisajes medievales de Girona. Vistas del Mediterráneo, el Pirineo y los campos del Alt y Baix Empordà."
+  },
+  "about": {
+    "title": "Quiénes Somos — Airona Globus | Expertos en Globo Aerostático, Empordà",
+    "description": "Airona Globus, especialistas en vuelos en globo aerostático sobre el Empordà y la Costa Brava. Pilotos certificados AESA, más de 10 años de experiencia y miles de pasajeros en el cielo."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes sobre Vuelos en Globo | Airona Globus",
+    "description": "Todo sobre los vuelos en globo aerostático: seguridad, duración, horarios, qué llevar, restricciones, precio y cómo reservar. Respuestas claras del equipo de Airona Globus."
+  },
+  "contact": {
+    "title": "Contacto — Airona Globus | Vuelos en Globo Empordà, Girona",
+    "description": "¿Preguntas sobre nuestros vuelos en globo? Llámanos al +34 652 907 515 o escríbenos. Salida desde Colomers, Girona. Volamos todo el año cuando las condiciones lo permiten."
+  },
+  "blog": {
+    "title": "Blog — Vuelos en Globo, Aventuras en el Empordà | Airona Globus",
+    "description": "Artículos, guías y consejos sobre vuelos en globo aerostático en el Empordà, la Costa Brava y Girona. Historias reales, paisajes únicos y turismo de aventura en Cataluña."
+  }
+}

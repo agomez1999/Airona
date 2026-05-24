@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "experiences": "Experiències",
+    "gift": "Regala una experiència",
+    "flightZone": "Zona de vol",
+    "blog": "Blog",
+    "faq": "Preguntes freqüents",
+    "about": "Qui som",
+    "contact": "Contacte"
+  },
+  "cart": {
+    "title": "El teu carret",
+    "empty": "El teu carret està buit",
+    "items_one": "{{count}} article",
+    "items_other": "{{count}} articles",
+    "checkout": "Tramitar comanda",
+    "add": "Afegir al carret",
+    "remove": "Eliminar",
+    "quantity": "Quantitat",
+    "subtotal": "Subtotal",
+    "discount": "Descompte",
+    "total": "Total",
+    "promo": {
+      "label": "Tens un codi promocional?",
+      "placeholder": "Codi",
+      "apply": "Aplicar",
+      "remove": "Treure",
+      "applied": "Codi aplicat!"
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Airona Globus. Tots els drets reservats.",
+    "privacy": "Política de privacitat",
+    "terms": "Termes i condicions",
+    "cookies": "Política de cookies"
+  },
+  "errors": {
+    "notFound": "Pàgina no trobada",
+    "generic": "S'ha produït un error. Si us plau, torna-ho a intentar.",
+    "loading": "Carregant..."
+  },
+  "actions": {
+    "buy": "Comprar ara",
+    "learnMore": "Saber-ne més",
+    "back": "Tornar",
+    "close": "Tancar",
+    "download": "Descarregar"
+  },
+  "language": "Idioma"
+}

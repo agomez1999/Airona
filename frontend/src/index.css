@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+/* ── Brand Design Tokens ─────────────────────────────────── */
+@theme {
+  --color-brand-sky: #87CEEB;
+  --color-brand-gold: #C9A84C;
+  --color-brand-dusk: #1C1C2E;
+  --color-brand-cream: #FAF7F2;
+  --color-brand-sunrise: #FF7043;
+  --color-brand-mist: #F0EDE8;
+
+  --font-display: "Montserrat", system-ui, sans-serif;
+  --font-body: "Montserrat", system-ui, sans-serif;
+  --font-admin: "Montserrat", system-ui, sans-serif;
+}
+
+/* ── Base ────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-dusk);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-gold);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Interactive element cursor ─────────────────────────── */
+@layer base {
+  button,
+  [role="button"],
+  a,
+  label[for],
+  select,
+  [tabindex]:not([tabindex="-1"]) {
+    cursor: pointer;
+  }
+}
+
+/* ── Admin typography tokens ─────────────────────────────── */
+@layer components {
+  .admin-page-title    { @apply text-2xl font-admin font-bold text-brand-dusk tracking-tight; }
+  .admin-section-title { @apply text-base font-admin font-semibold text-brand-dusk; }
+  .admin-label         { @apply text-sm font-admin font-medium text-gray-600; }
+  .admin-stat-value    { @apply text-3xl font-admin font-extrabold text-brand-dusk tabular-nums tracking-tight; }
+  .admin-stat-label    { @apply text-xs font-body font-semibold uppercase tracking-widest text-gray-400; }
+}
+
+/* ── Animations ──────────────────────────────────────────── */
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}

@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Vol en Globus Empordà i Costa Brava | Airona Globus — Girona",
+    "description": "Vola en globus aerostàtic a l'alba sobre l'Empordà i la Costa Brava. Vistes úniques del Mediterrani i els Pirineus. Compartit, privat o xec regal. Reserva online des de Colomers, Girona."
+  },
+  "experiences": {
+    "title": "Vols en Globus Aerostàtic | Airona Globus — Empordà, Costa Brava",
+    "description": "Tria el teu vol en globus sobre l'Empordà: compartit, privat o xec regal vàlid 1 any. Pilots certificats AESA. Brindis amb cava i fotos 360° inclosos. Sortida des de Colomers."
+  },
+  "sharedFlight": {
+    "title": "Vol en Globus Compartit Empordà | Airona Globus — Costa Brava",
+    "description": "Vol en globus aerostàtic compartit sobre l'Empordà. Grups de fins a 8 persones, 1 hora de vol a l'alba, brindis amb cava i fotos 360° inclosos. Sortida des de Colomers, Girona."
+  },
+  "privateFlight": {
+    "title": "Vol en Globus Privat Girona | Airona Globus — Experiència Exclusiva",
+    "description": "Vol privat en globus aerostàtic sobre la Costa Brava i l'Empordà. Només per a tu i el teu grup. Personalitzat, íntim i amb servei premium. Pilots certificats AESA. Reserva ara."
+  },
+  "gift": {
+    "title": "Xec Regal Vol en Globus | Airona Globus — Vàlid 1 Any",
+    "description": "Regala un vol en globus aerostàtic sobre l'Empordà. Xec regal descarregable a l'instant, vàlid 1 any. La persona triada tria la data. El regal més emocionant de Catalunya."
+  },
+  "flightZone": {
+    "title": "Zona de Vol en Globus Empordà i Costa Brava | Airona Globus",
+    "description": "Partim des de Colomers i sobrevolem l'Empordà, la Costa Brava i els paisatges medievals de Girona. Vistes del Mediterrani, el Pirineu i els camps de l'Alt i Baix Empordà."
+  },
+  "about": {
+    "title": "Qui Som — Airona Globus | Experts en Globus Aerostàtic, Empordà",
+    "description": "Airona Globus, especialistes en vols en globus aerostàtic sobre l'Empordà i la Costa Brava. Pilots certificats AESA, més de 10 anys d'experiència i milers de passatgers al cel."
+  },
+  "faq": {
+    "title": "Preguntes Freqüents sobre Vols en Globus | Airona Globus",
+    "description": "Tot sobre els vols en globus aerostàtic: seguretat, durada, horaris, què portar, restriccions, preu i com reservar. Respostes clares de l'equip d'Airona Globus."
+  },
+  "contact": {
+    "title": "Contacte — Airona Globus | Vols en Globus Empordà, Girona",
+    "description": "Preguntes sobre els nostres vols en globus? Truca'ns al +34 652 907 515 o escriu-nos. Sortida des de Colomers, Girona. Volem tot l'any quan les condicions ho permeten."
+  },
+  "blog": {
+    "title": "Blog — Vols en Globus, Aventures a l'Empordà | Airona Globus",
+    "description": "Articles, guies i consells sobre vols en globus aerostàtic a l'Empordà, la Costa Brava i Girona. Històries reals, paisatges únics i turisme d'aventura a Catalunya."
+  }
+}

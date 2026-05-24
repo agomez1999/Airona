@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Vol en Montgolfière Empordà & Costa Brava | Airona Globus — Gérone",
+    "description": "Volez en montgolfière au lever du soleil sur l'Empordà et la Costa Brava. Vues uniques sur la Méditerranée et les Pyrénées. Partagé, privé ou bon cadeau. Réservez en ligne depuis Colomers, Gérone."
+  },
+  "experiences": {
+    "title": "Expériences en Montgolfière | Airona Globus — Empordà, Costa Brava",
+    "description": "Choisissez votre vol en montgolfière sur l'Empordà : partagé, privé ou bon cadeau valable 1 an. Pilotes certifiés AESA. Toast au cava et photos 360° inclus. Départ de Colomers."
+  },
+  "sharedFlight": {
+    "title": "Vol Partagé en Montgolfière Empordà | Airona Globus — Costa Brava",
+    "description": "Vol en montgolfière partagé sur l'Empordà. Groupes jusqu'à 8 personnes, 1h de vol au lever du soleil, toast au cava et photos 360° inclus. Départ de Colomers, Gérone."
+  },
+  "privateFlight": {
+    "title": "Vol Privé en Montgolfière Gérone | Airona Globus — Expérience Exclusive",
+    "description": "Vol privé en montgolfière sur la Costa Brava et l'Empordà. Rien que pour vous et votre groupe. Personnalisé, intime et service premium. Pilotes certifiés AESA. Réservez maintenant."
+  },
+  "gift": {
+    "title": "Bon Cadeau Vol en Montgolfière | Airona Globus — Valable 1 An",
+    "description": "Offrez un vol en montgolfière sur l'Empordà. Bon cadeau téléchargeable instantanément, valable 1 an. Le destinataire choisit la date. Le cadeau le plus émouvant de Catalogne."
+  },
+  "flightZone": {
+    "title": "Zone de Vol Montgolfière Empordà & Costa Brava | Airona Globus",
+    "description": "Nous décollons de Colomers et survolons l'Empordà, la Costa Brava et les paysages médiévaux de Gérone. Vues sur la Méditerranée, les Pyrénées et les champs de l'Alt et Baix Empordà."
+  },
+  "about": {
+    "title": "Qui Sommes-Nous — Airona Globus | Experts en Montgolfière, Empordà",
+    "description": "Airona Globus, spécialistes des vols en montgolfière sur l'Empordà et la Costa Brava. Pilotes certifiés AESA, plus de 10 ans d'expérience et des milliers de passagers dans les airs."
+  },
+  "faq": {
+    "title": "Questions Fréquentes sur les Vols en Montgolfière | Airona Globus",
+    "description": "Tout sur les vols en montgolfière : sécurité, durée, horaires, quoi porter, restrictions, tarifs et comment réserver. Réponses claires de l'équipe Airona Globus."
+  },
+  "contact": {
+    "title": "Contact — Airona Globus | Vols en Montgolfière Empordà, Gérone",
+    "description": "Des questions sur nos vols en montgolfière ? Appelez le +34 652 907 515 ou écrivez-nous. Départ de Colomers, Gérone. Nous volons toute l'année selon les conditions météo."
+  },
+  "blog": {
+    "title": "Blog — Vols en Montgolfière & Aventures en Empordà | Airona Globus",
+    "description": "Articles, guides et conseils sur les vols en montgolfière dans l'Empordà, la Costa Brava et Gérone. Histoires vraies, paysages uniques et tourisme d'aventure en Catalogne."
+  }
+}
